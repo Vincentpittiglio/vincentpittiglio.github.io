@@ -487,6 +487,20 @@ footer{margin-top:90px;
 	margin-bottom:22.5px;
 	margin-left:1%;}
 
+/* --------------------------------------- page I See You ------------------------------------ */
+
+#wireframeiseeyou{margin-top:45px;
+                  display:flex;
+                  flex-direction: row;
+                  justify-content:space-between ;}
+
+#mesiseeyou{margin-top:45px;
+                  display:flex;
+                  flex-direction: row;
+                  justify-content:space-between ;}
+
+.imageiseeyou{width:47%;}
+
 /* --------------------------------------- page ufo ------------------------------------------ */
 
 #dingbat{border: solid 1.3vw #4F66BF;
@@ -944,6 +958,21 @@ line-height: 5vw;}
 #specimenlink{font-size: 4vw;
 				margin-left: 0px;
 				margin-left:8%;}
+
+#wireframeiseeyou{margin-top:25px;
+                  display:flex;
+                  flex-direction: column;
+                  justify-content:space-between;}
+
+#mesiseeyou{margin-top:25px;
+                  display:flex;
+                  flex-direction: column;
+                  justify-content:space-between ;}
+
+.imageiseeyou{width:100%;
+              margin-top:15px;}
+
+.legendewireframe{font-size:2vw;}
 
 
 }/* fin media phone paysage*/
