@@ -835,8 +835,10 @@ h5{font-family:"raleway extralight";
 
 header{margin-top:90px;
     width:100%;
-    margin-bottom: -20px;
+
     }
+
+#headerprojet{ margin-bottom: -20px;}
 
 @-webkit-keyframes animationentree { /* Safari, Opera, Chrome */
     0% {
