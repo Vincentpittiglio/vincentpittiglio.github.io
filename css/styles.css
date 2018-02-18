@@ -176,13 +176,14 @@ footer{background-color: #565656;
 	   box-shadow: 0px 15px 40px 5px #0c0c0c;
 	   filter:progid:DXImageTransform.Microsoft.Shadow(color=#0c0c0c, Direction=180, Strength=40);}
 
+
 #elementcontact{width:5%;
 				margin-left:42.5%;
 				margin-right:5%;
 				margin-bottom: 1.5vw;}
 
 #elementcontact2{width:5%;
-				 margin-bottom: 1.5vw;}
+				 margin-bottom: 1.5vw;}/*--*/
 
 
 #mentionslegals{width:100%;
