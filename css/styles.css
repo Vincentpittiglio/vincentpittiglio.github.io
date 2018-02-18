@@ -177,20 +177,13 @@ footer{background-color: #565656;
 	   filter:progid:DXImageTransform.Microsoft.Shadow(color=#0c0c0c, Direction=180, Strength=40);}
 
 #elementcontact{width:5%;
-				margin-left:32.9%;
+				margin-left:42.5%;
 				margin-right:5%;
 				margin-bottom: 1.5vw;}
 
 #elementcontact2{width:5%;
-				 margin-right:5%;
 				 margin-bottom: 1.5vw;}
 
-#elementcontact3{width:5%;
-				 margin-right:5%;
-				 margin-bottom: 1.5vw;}
-
-#elementcontact4{width:4.2%;
-				 margin-bottom: 1.5vw;}
 
 #mentionslegals{width:100%;
 				text-align: center;}
@@ -371,9 +364,9 @@ h3{font-size: 3vw;
 h5{font-size: 1.5vw;
 	line-height: 2vw;}
 
-#elementcontact, #elementcontact2, #elementcontact3, #elementcontact4 {width:10%;}
+#elementcontact, #elementcontact2{width:10%;}
 
-#elementcontact{margin-left:20%;}
+#elementcontact{margin-left:37.5%;}
 
 }/*fin ipad portrait*/
 
@@ -452,11 +445,9 @@ h2{font-size: 9vw;}
 #mentionslegals h5{font-size: 3vw;
 				   line-height: 4.5vw;}
 
-#elementcontact, #elementcontact2, #elementcontact3, #elementcontact4{width:15%;}
+#elementcontact, #elementcontact2{width:15%;}
 
-#elementcontact, #elementcontact2, #elementcontact3{margin-right: 11%;}
-
-#elementcontact{margin-left: 0%;}
+#elementcontact{margin-left: 32.5%;}
 
 #navfooterhome{margin-bottom: 2vw;}
 

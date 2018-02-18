@@ -7,5 +7,14 @@ $(document).ready(function() {
       });
       });
 
-// --------------------------- particules js
+function open_window(votre_page)
+				{
+					var hauteur_popup=800;
+					var H = (screen.height - hauteur_popup) / 2;
+					var largeur_popup=800;
+					var L = (screen.width - largeur_popup) / 2;
+					pop_up = window.open(votre_page,"Popup","status=yes,scrollbars=yes,resizable=no,height="+hauteur_popup+",width="+largeur_popup+",top="+H+",left="+L);
+				}
+
+
 
