@@ -4,22 +4,55 @@
 
 	<head>
 	
-		<title>Vincent Pittiglio</title>
+		<meta charset="utf-8"> 
 
-		<meta charset="utf-8">
-		<meta name="description" content="Graphiste & webdesigner indépendant mais surtout polyvalent"> 
-		<meta name="author" content="Vincent Pittiglio" />
-		<meta name="viewport" content="width=device-width, initial-scale=2.0">
+		<title>Vincent Pittiglio | Portfolio</title>
 
-		<link href="images/vignette.png" rel="image_src"  />
 		<link rel="shortcut icon" type="image/ico" href="images/ico.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Le portfolio de Vincent Pittiglio, graphiste web et print">
+
 		<link rel="stylesheet" href="css/master.css" type="text/css" media="screen" />
 
 	</head> 
 
 	<body>
 
-		<div id="conteneur">
+<div id="conteneur">
+
+			<!-- ------------- menu humburger ------------- -->
+
+				<nav class="menu">
+  					<span class="menu-global menu-top"></span>
+  					<span class="menu-global menu-middle"></span>
+  					<span class="menu-global menu-bottom"></span>
+				</nav>
+
+				<nav class="humberger">
+
+					<div id="conteneurlien">
+
+						<a href="#conteneur" class="js-scrollTo" title="Haut de la page">
+							Accueil
+						</a>
+
+						<a href="#apropos" class="js-scrollTo">
+							À Propos
+						</a>
+
+						<a href="#mescreations" class="js-scrollTo" title="Mes Créations">
+							Portfolio
+						</a>
+
+						<a href="#contact" class="js-scrollTo" title="Contactez-moi">
+							Contacts
+						</a>
+						
+					</div>
+					
+				</nav>
+
+				<!-- ------------- fin menu humburger ------------- -->
 
 			<header>
 
@@ -50,7 +83,6 @@
 					<figcaption>
 
 				</figure>
-
 
 				<nav id="navheader">
 
@@ -94,10 +126,6 @@
 							<img src="images/scrolldown.png" alt="Défiler vers le bas"/>
 						</div>
 
-						<figcaption>
-							— défiler vers le bas —
-						</figcaption>
-
 					</figure>
 
 				</section>
@@ -105,7 +133,7 @@
 				<section id="apropos">
 
 					<div class="entete">
-						<h1 class="from-bottom">Un design sur-mesure</h1>
+						<h1 class="from-bottom">Un design <br id="brmobile">sur-mesure</h1>
 						<h2 class="from-bottom">Au-delà de vos attentes</h2>
 					</div>
 
@@ -201,8 +229,8 @@
 
 						<figcaption id="legendeprj3">
 							Direction Artistique <br>
-							Web design <br>
-							HTML5/CSS3 & PhP
+							HTML5/CSS3 & PhP <br>
+							Web design
 						</figcaption>
 
 					</figure>
@@ -264,19 +292,15 @@
 			</footer>
 
 		</div>
+		</div> 
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    	<!-- intégration des scripts -->
+    	<script src="https://unpkg.com/scrollreveal"></script>
+
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="js/script.js"></script>
+		<!-- fin intégration des scripts -->
 
 	</body> 
 
 </html> 
-
-
-
-
-
-
-
-
-
