@@ -585,7 +585,7 @@ h2{font-size:5vw;
 }
 .menu-global2 {
   backface-visibility: hidden;
-  position: absolute;
+  position: fixed;
   right: 0;
   border-top: 1px solid white;
   width: 100%;
