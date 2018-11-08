@@ -573,7 +573,6 @@ h2{font-size:5vw;
   z-index:21;
   width: 40px;
   height: 20px;
-  position:fixed;
 }
 .menu-global {
   backface-visibility: hidden;
@@ -700,6 +699,7 @@ h2{font-size:5vw;
 /* iPhone5s paysage = 568px */
 /* iPhone4 paysage = 468 px */
 
+
 .menu {
    width: 25px;
   height: 15px;
@@ -734,6 +734,7 @@ h2{font-size:5vw;
 /* iPhone6 portrait = 375px */
 /* iPhone4 & iPhone5 portrait = 320px */
 
+
 h1{font-size: 10vw;
    line-height:11vw;}
 
@@ -748,6 +749,15 @@ p{font-size:5vw;
   line-height:6.5vw;}
 
 address{font-size:7vw;}
+
+.menu {
+  cursor: pointer;
+  right:5vw;
+  top:5vh;
+  padding-left: 1.25em;
+  position: fixed;
+  z-index:21;
+}
 
 #mail a{font-size:7vw;
         line-height: 20vw;}
@@ -775,8 +785,6 @@ svg{display: none;}
          padding-left:8vw;
          padding-right:8vw;
          padding-top:10vh;}
-
-.menu{position:absolute;}
 
 .nowrap{white-space: normal;
         font-size:10vw;
