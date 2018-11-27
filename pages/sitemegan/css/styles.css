@@ -454,9 +454,6 @@ address{font-size:2.5vw;
 /* iPhone6+ portrait = 540px */
 /* iPhone6 portrait = 375px */
 /* iPhone4 & iPhone5 portrait = 320px */
-
-html{background-color:red;}
-
 h2{font-size:4vw;}
 
 h3{font-size:4vw;
@@ -466,11 +463,11 @@ p{font-size:4vw;
   line-height:6.5vw;}
 
 #preface{background-size:320%;
-		 background-position:center 75%;
+		 background-position:center center;
 		 height:100vh;}
 
 #epilogue{background-size:320%;
-		 background-position:center 75%;}
+		 background-position:center center;}
 
 header{padding-top:5vw;}
 
