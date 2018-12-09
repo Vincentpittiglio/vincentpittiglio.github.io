@@ -1,6 +1,20 @@
+/* ----------------------------------Reset------------------------------------------- */
+
 @import url("reset.css"); /* Reset browser styles */
-/* ------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------Font-------------------------------------------- */
+
 @import url("../fonts/font-face.css"); /* Fonts */
-/* ------------------------------------------------------------------------------------------- */
-@import url("styles.css"); /* Large screen + All screens */
-/* ------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------Style------------------------------------------- */
+
+@import url("styles.css"); /* style */
+
+/* --------------------------------Responsiv----------------------------------------- */
+
+@import url("responsiv/stylestablettepaysage.css"); /* Tablette paysage */
+@import url("responsiv/stylestabletteportrait.css"); /* Tablette portrait */
+@import url("responsiv/stylesmobilepaysage.css"); /* Mobile paysage */
+@import url("responsiv/stylesmobileportrait.css"); /* Mobile Portrait */
+
+/* ---------------------------------------------------------------------------------- */

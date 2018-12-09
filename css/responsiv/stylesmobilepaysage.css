@@ -1,0 +1,35 @@
+@media screen and (max-width:667px) {
+/* Mobiles paysage */
+/* iPhone6+ paysage = 960px */
+/* iPhone6 paysage = 667px */
+/* iPhone5s paysage = 568px */
+/* iPhone4 paysage = 468 px */
+
+
+.menu {
+   width: 25px;
+  height: 15px;
+
+}
+
+.menu-top {
+  top: 0;
+}
+.menu-middle {
+  top: 5px;
+}
+.menu-bottom {
+  top: 10px;
+}
+
+.menu-top-click {
+  top: 10px;
+}
+
+.menu-bottom-click {
+  top: 10px;
+}
+
+#titretextapropos{display:none;}
+
+}/* fin media phone paysage*/

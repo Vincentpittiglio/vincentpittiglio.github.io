@@ -1,52 +1,3 @@
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video{margin: 0;
-						  padding: 0;
-						  border: 0;
-						  font-size: 100%;
-						  font: inherit;
-						  vertical-align: baseline;}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {display: block;}
-
-body{line-height: 1;}
-
-ol, ul{list-style: none;}
-
-blockquote, q{quotes: none;}
-
-blockquote:before, blockquote:after,
-q:before, q:after{content: '';
-				   content: none;}
-
-table{border-collapse: collapse;
-	   border-spacing: 0;}
-
-body,html{min-height:100%; /* Pour avoir des blocs en pleine hauteur */}
-
-img{width:100%;
-	height:auto;}
-
-*{box-sizing:border-box;}
-
-.nowrap{white-space: nowrap;}
-
-/*--------------------------------------------------------------------------------*/
-
-
 .apparitionhome{animation:home 0.5s ease-in-out;
 	    		 animation-fill-mode: forwards;}
 
@@ -60,7 +11,7 @@ img{width:100%;
   	transform:translateY(0vw);
     width: 1;
   }
-}}
+}
 
 
 .from-bottom {
@@ -71,8 +22,6 @@ img{width:100%;
 .from-bottom {
     transform: translate(0px,50px)
 }
-
-/*--------------------------------------------------------------------------------*/
 
 html{background-color:#fff;
      overflow-x:hidden}
@@ -164,7 +113,7 @@ header{width:100%;
        position:relative;}
 
 #logo{width:12vw;
-	  height:5vw;
+	    height:5vw;
       display:flex;
       flex-direction:row;
       justify-content:space-between;}
@@ -205,115 +154,30 @@ header{width:100%;
             background-color:#2468FF;
 }
 
-/*
-
-
-#trait1, #trait2, #trait3, #trait4{height:1px;
-                                   background-color:#2468FF;
-                                   margin-bottom:1vw;}
-
-
-#trait1,#trait2, #trait3, #trait4{animation:fildarianne 0.5s ease-in-out;
-                          		  animation-fill-mode: forwards;}
-
-
-@keyframes fildarianne {
-  from {
-    width: 0%;
-  }
-  
-  80% {
-    width: 55%;
-  }
-
-  to {
-    width: 50%;
-  }
-}
-
-@keyframes fildariannesection {
-  from {
-    width: 50%;
-  }
-  
-  80% {
-    width: 105%;
-  }
-
-  to {
-    width: 100%;
-  }
-}
-
-*/
-
 #accueil{width:100%;
          padding-left: 22vw;
          padding-right: 5vw;
          padding-top:19vh;
          padding-bottom: 19vh;}
 
-#blancfondhome{width:50vw;
-	           height:25vw;
-	           margin-left:-2.5vw;
-	           margin-top:-2.5vw;
-	           position:absolute;
-               background-color:#fff;
-               }
-
-#Calque_1{position:absolute;
-          margin-top:-5vw;
-          margin-left:6vw;}
-
-
-/*---------------------------------
-
-.ligneanime{
-	        stroke-dasharray: 3500;
-  			stroke-dashoffset: 4500;
-            animation: dash 3s ease-in-out forwards;
-            animation-delay: -1s;
-            }
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
----------------------------------*/
-
-#entetehome{margin-bottom:18vh;
+#entetehome{margin-bottom:16vh;
 			position:relative;
 			display:flex;
     		flex-direction:column;
     		justify-content:space-between;}
 
-#scrolldown{width:15%;
-			margin-left:31.5%;
-            display:flex;
-            flex-wrap:wrap;
-    		justify-content:center;}
+#illuhome{width:25%;
+          margin-left:55vw;
+          margin-top:12vw;
+          position:absolute;}
 
-#scrolldownimg{width:20%;
-               margin-bottom: 1.5vw;
-               animation:scrolldown 3s infinite;
-               }
+#illuordi,#illucrayon,#illucourbe{width:35%;}
 
-@keyframes scrolldown {
-  from {
-    transform: translateY(-0.5vw);
-  }
+#illucourbe{margin-left:-15%;
+            margin-top:-5vw;}
 
-  50% {
-    transform: translateY(0.5vw);
-  }
-
-
-  to {
-    transform: translateY(-0.5vw);
-  }
-}
+#illucrayon{margin-left:30%;
+            margin-top:-2vw;}
 
 #apropos{width:100%;
 	     height:100vh;
@@ -335,6 +199,42 @@ header{width:100%;
 
 #titretextapropos{width:130%;}
 
+#animapropos{width:70%;
+             padding-left:15%;
+             padding-top:4vw;}
+
+#bottomanimeapropos{animation:animapropo 2s ease-in-out infinite;}
+
+#topanimeapropos{animation:animapropos 2s ease-in-out infinite;}
+
+@keyframes animapropo {
+  0% {
+    transform:translateY(-1.5vw);
+  }
+
+  50% {
+    transform:translateY(0vw);
+  }
+
+  100% {
+    transform:translateY(-1.5vw);
+  }
+}
+
+@keyframes animapropos {
+  0% {
+    transform:translateY(1.5vw);
+  }
+
+  50% {
+    transform:translateY(0vw);
+  }
+
+  100% {
+    transform:translateY(1.5vw);
+  }
+}
+
 #mescreations{width:100%;
          	  padding-left: 22vw;
          	  padding-right: 22vw;
@@ -342,6 +242,24 @@ header{width:100%;
         	  display:flex;
          	  flex-direction:column;
          	  justify-content:center;}
+
+#illumescreations{width:25%;
+                  margin-left:43vw;
+                  margin-top:-62vw;
+                  position:absolute;}
+
+#illuwireframe,#illushape{width:35%;}
+
+#ampoule{width:20%;
+         margin-top:-4vw;
+         margin-left:10vw;}
+
+#illuwireframe{margin-left:5vw;}
+
+#petitwire,#grandwire{transition:all 1s ease-in-out;}
+
+#illuwireframe:hover #petitwire{transform: translateX(-20px);}
+#illuwireframe:hover #grandwire{transform: translateX(20px);}
 
 #projet1,#projet3{width:100%;
          padding-top:10vh;
@@ -367,7 +285,8 @@ header{width:100%;
 #titreasideprj1{position:absolute;
 				margin-left:-21.5vw;}
 
-#barrebleuprj1 {width:100%;
+
+#barrebleuprj1{width:100%;
       			height:1px;
       			margin-top:8vw;
       			background-color:#2468FF;}
@@ -452,383 +371,28 @@ footer{width:100%;
 
 .menu,.humberger{display:none;}
 
+
+/* ----------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------*/
+/*                                      PROJET BCN OSTEOPATA                                     */
+/* ----------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------*/
+
+
+#headerprojet{width:100%;}
+
+#introprjt{width:100%;
+           padding-left: 22vw;
+           padding-right: 22vw;
+           margin-bottom: 16vh;}
+
+
 }/*fin iMac 27*/
 
 
 
-@media screen and (max-width:1920px) {
-/* iMac 21.5" Paysage = 1920px */
 
-}/*fin iMac 21.5*/
 
-@media screen and (max-width:1024px) {
-/* iPad portrait & landscape */
-
-	h1{font-size: 6vw;}
-
-	h4{font-size: 2vw;
-	   line-height:2.9vw;}
-
-	p{font-size: 2vw;
-	  line-height:2.9vw;}
-
-	figcaption{font-size:1.5vw;
-	           line-height:2.3vw;}
-
-	a{font-size: 2vw;
-	  line-height:2.9vw;}
-
-	address{font-size: 2vw;
-	  line-height:2.9vw;}
-
-	#texteasideprj1 p {font-size:1.5vw;
-	    				line-height: 2.3vw;}
-
-	#texteasideprj2 p {font-size:1.5vw;
-	    				line-height: 2.3vw;}
-
-	#texteasideprj3 p {font-size:1.5vw;
-	    				line-height: 2.3vw;}
-
-	#navheader {width:40%;}
-
-	.entete{width:100%;}
-
-	#accueil{padding-top:25vh;
-	         padding-left:30vw;
-	         padding-bottom: 8vh;}
-
-	#fildarianne{display: none;}
-
-	#apropos{width:100%;
-	     height:70vh;
-         padding-left: 18vw;
-         padding-right: 18vw;
-         margin-bottom: 8vh;
-         display:flex;
-         flex-direction:column;
-         justify-content:center;}
-
-    #projet1,#projet2,#projet3{padding-bottom:8vh; }
-
-    #titreasideprj1{width:90%;
-                    margin-left:-28vw;}
-
-    #titreasideprj3{margin-left:-8.5vw;}
-
-    #navfooter{width:15%;
-               margin-top:9.85vw;
-               margin-left:85%;}
-
-    #contact{    width: 100%;
-    		padding-left: 18vw;
-    		padding-right: 18vw;
-    		margin-bottom: 8vh;}
-
-    #textecontact{width:100%;}
-
-    #mentions{font-size:1.5vw;
-	    	  line-height: 2.3vw;}
-
-	em{font-size:1.5vw;
-	    	  line-height: 2.3vw;}
-
-	footer{width: 100%;
-    		padding-left: 18vw;
-    		padding-right: 18vw;
-    	    margin-bottom:4vw;}
-
-
-}/*ipad landscape fin*/
-
-@media screen and (max-width:768px) {
-/* iPad portrait */
-
-header{padding-top:5vh;}
-
-h1{font-size:8vw;
-   line-height:9vw;}
-
-h2{font-size:5vw;
-   line-height:7vw;}
-
-#accueil{padding-left:18vw;}
-
-#Calque_1{padding-left:9vw;}
-
-#blancfondhome{margin-left:5vw;}
-
-#scrolldownimg{width:40%;}
-
-#navheader{display:none;}
-
-.menu,.humberger{display:block;}
-
-.menu {
-  cursor: pointer;
-  right:5vw;
-  top:5vh;
-  padding-left: 1.25em;
-  position: absolute;
-  z-index:21;
-  width: 40px;
-  height: 20px;
-}
-.menu-global {
-  backface-visibility: hidden;
-  position: absolute;
-  right: 0;
-  border-top: 1px solid #2468FF;
-  width: 100%;
-  transition: 0.55s;
-}
-.menu-global2 {
-  backface-visibility: hidden;
-  position: fixed;
-  right: 0;
-  border-top: 1px solid white;
-  width: 100%;
-  transition: 0.55s;
-}
-.menu-top {
-  top: 0;
-}
-.menu-middle {
-  top: 9px;
-}
-.menu-bottom {
-  top: 18px;
-}
-.menu-top-click {
-  backface-visibility: hidden;
-  top: 15px;
-  transform: rotate(50deg);
-  transition: 0.55s 0.5s;
-}
-.menu-middle-click {
-  opacity: 0;
-}
-.menu-bottom-click {
-  backface-visibility: hidden;
-  top: 15px;
-  transform: rotate(-410deg);
-  transition: 0.55s 0.5s;
-}
-
-
-
-
-.humberger{position:fixed;
-			right: 0;
-			padding:2vw;
-			background-color:rgba(41,107,255,0.7);
-			width:100%;
-			height:100vh;
-			z-index: 20;
-
-			transition: transform .6s ease-in-out;
-			-webkit-transition: transform .6s ease-in-out;
-
-			transform: translateX(100%);
-			-webkit-transform: translateX(100%);}
-
-.humberger.isOpen{transform: translateX(0%);
-				  -webkit-transform: translateX(0%);}
-
-.humberger #conteneurlien{position:absolute;
-  						  top: 50%; left: 50%; /* à 50%/50% du parent référent */
-  				          transform: translate(-50%, -50%);
-  				          display:flex;
-  				          flex-direction:column;}
-
-.humberger #conteneurlien a{margin:5vw 0;
-			                text-align: center;
-			                color:#fff;
-							font-family:'gilroylight', sans-serif;
-							font-size:3vw;
-							font-style:normal;}
-
-
-#logo{width:15vw;}
-#logoimg{width:7vw;}
-
-#apropos{margin-bottom:0vw;
-         height:auto;
-         margin-bottom:8vw;
-         padding-top:2vw;}
-
-.nowrap{font-size:7vw;}
-
-#projet1,#projet3{flex-direction:column;
-   						   padding-bottom:3vw;
-   						   padding-top:3vw;}
-
-#projet2{flex-direction:column-reverse;
-   		 padding-bottom:8vw;
-   		 padding-top:8vw;}
-
-#imgprj1,#imgprj2,#imgprj3{width: 100%;
-						   margin-right: 0vw;
-						   margin-left:0vw;}
-
-#infoprj1{margin-top:2vw;}
-#infoprj2{margin-top:2vw;}
-#infoprj3{margin-top:2vw;}
-
-#legendeprj1,#legendeprj2,#legendeprj3{display:none;}
-
-#barrebleuprj1,#barrebleuprj3,#barrebleuprj2{margin-top:3vw;}
-
-#texteasideprj1,#texteasideprj2,#texteasideprj3{margin-top:3vw;}
-
-#texteasideprj1 p,#texteasideprj2 p,#texteasideprj3 p{font-size:2vw;
-													  line-height:2.9vw}
-
-#titreasideprj1,#titreasideprj2,#titreasideprj3{width:100%;
-												position:relative;
-												margin-left:0vw;}
-
-#mescreations{padding-left: 18vw;
-             padding-right: 18vw;}
-}/*fin ipad portrait*/
-
-@media screen and (max-width:667px) {
-/* Mobiles paysage */
-/* iPhone6+ paysage = 960px */
-/* iPhone6 paysage = 667px */
-/* iPhone5s paysage = 568px */
-/* iPhone4 paysage = 468 px */
-
-
-.menu {
-   width: 25px;
-  height: 15px;
-
-}
-
-.menu-top {
-  top: 0;
-}
-.menu-middle {
-  top: 5px;
-}
-.menu-bottom {
-  top: 10px;
-}
-
-.menu-top-click {
-  top: 10px;
-}
-
-.menu-bottom-click {
-  top: 10px;
-}
-
-#titretextapropos{display:none;}
-
-}/* fin media phone paysage*/
-
-@media screen and (max-width:375px) {
-/* Mobiles portrait */
-/* iPhone6+ portrait = 540px */
-/* iPhone6 portrait = 375px */
-/* iPhone4 & iPhone5 portrait = 320px */
-
-
-h1{font-size: 10vw;
-   line-height:11vw;}
-
-h2{font-size: 8vw;
-   line-height:9.7vw;}
-
-h3{font-size: 4vw;
-   padding-left:3vw;
-   line-height:4.5vw;}
-
-p{font-size:5vw;
-  line-height:6.5vw;}
-
-address{font-size:7vw;}
-
-.menu {
-  cursor: pointer;
-  right:5vw;
-  top:5vh;
-  padding-left: 1.25em;
-  position: fixed;
-  z-index:21;
-}
-
-#mail a{font-size:7vw;
-        line-height: 20vw;}
-
-#tel{margin-top:8vw;}
-
-
-br{display: none;}
-
-svg{display: none;}
-
-#logo{width:30vw;}
-
-#textlogo{height:10vw;}
-
-#accueil{height:75vh;
-         padding-left:8vw;
-         padding-top:35vh;}
-
-#logoimg{width:14vw;}
-
-#scrolldownimg{display:none; }
-
-#apropos{height:100vh;
-         padding-left:8vw;
-         padding-right:8vw;
-         padding-top:10vh;}
-
-.nowrap{white-space: normal;
-        font-size:10vw;
-        line-height:11vw;}
-#brmobile{display: block;}
-
-.entete{margin-bottom:7vh;}
-
-#mescreations{
-         padding-left:8vw;
-         padding-right:8vw;
-         padding-top:10vh;}
-
-#projet3,#projet2,#projet1{height:75vh;}
-
-#texteasideprj1 p,#texteasideprj2 p,#texteasideprj3 p{font-size:5vw;
-  line-height:6.5vw;}
-
-#contact{ padding-left:8vw;
-         padding-right:8vw;
-         padding-top:10vh;}
-
-#navfooter{width:30%;
-           position:relative;
-           margin-left: 0%;
-           margin-top: 5vw;}
-
-footer{padding-left:8vw;
-         padding-right:8vw;
-         padding-top:3vh;
-         margin-bottom:6vh;}
-
-#mentions{font-size:5vw;
-  line-height:6.5vw;}
-
-em{font-size:5vw;
-  line-height:6.5vw;}
-
-.humberger #conteneurlien a{font-size:5vw;}
-
-
-
-
-}/*fin media phone*/
 
 
 
