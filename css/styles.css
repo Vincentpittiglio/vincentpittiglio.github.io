@@ -166,19 +166,6 @@ header{width:100%;
     		flex-direction:column;
     		justify-content:space-between;}
 
-#illuhome{width:25%;
-          margin-left:55vw;
-          margin-top:12vw;
-          position:absolute;}
-
-#illuordi,#illucrayon,#illucourbe{width:35%;}
-
-#illucourbe{margin-left:-15%;
-            margin-top:-5vw;}
-
-#illucrayon{margin-left:30%;
-            margin-top:-2vw;}
-
 #apropos{width:100%;
 	     height:100vh;
          padding-left: 22vw;
@@ -243,23 +230,6 @@ header{width:100%;
          	  flex-direction:column;
          	  justify-content:center;}
 
-#illumescreations{width:25%;
-                  margin-left:43vw;
-                  margin-top:-62vw;
-                  position:absolute;}
-
-#illuwireframe,#illushape{width:35%;}
-
-#ampoule{width:20%;
-         margin-top:-4vw;
-         margin-left:10vw;}
-
-#illuwireframe{margin-left:5vw;}
-
-#petitwire,#grandwire{transition:all 1s ease-in-out;}
-
-#illuwireframe:hover #petitwire{transform: translateX(-20px);}
-#illuwireframe:hover #grandwire{transform: translateX(20px);}
 
 #projet1,#projet3{width:100%;
          padding-top:10vh;
