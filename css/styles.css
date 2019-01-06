@@ -398,7 +398,6 @@ footer{width:100%;
 /* ----------------------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------------------------------------------*/
 
-
 #conteneurprojet header{margin-bottom:15vh;}
 
 #conteneurprojet #navheader{width:20%;}
@@ -450,6 +449,20 @@ footer{width:100%;
 
 a:hover #boutonvoirsite{border:solid 1px #A3A3A3;}
 
+/* ----------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------*/
+/*                                      PROJET Megane Labbe                                      */
+/* ----------------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------*/
+
+#conteneurprojetmeg header{margin-bottom:15vh;}
+
+#conteneurprojetmeg #navheader{width:20%;}
+
+#conteneurprojetmeg #sectionsitebcn li{padding-top:0%;}
+#conteneurprojetmeg #msbcn2 img{margin-top:0%;}
+#conteneurprojetmeg #msbcnordi1 img {margin-bottom:0%;
+                                     margin-top:3.5vw;}
 }/*fin iMac 27*/
 
 
