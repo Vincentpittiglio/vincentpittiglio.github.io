@@ -18,50 +18,108 @@
 
 	<body>
 
-<div id="conteneur">
+<div id="conteneurprojet">
 
-	<header id="headerprojet">
+	<nav class="menu">
+  			<span class="menu-global menu-top"></span>
+  			<span class="menu-global menu-middle"></span>
+  			<span class="menu-global menu-bottom"></span>
+	</nav>
+
+	<nav class="humberger">
+
+		<div id="conteneurlien">
+
+			<a href="../index.html#conteneur" class="js-scrollTo" title="Haut de la page">
+				Accueil
+			</a>
+
+			<a href="../index.html#apropos" class="js-scrollTo">
+				À Propos
+			</a>
+
+			<a href="../index.html#mescreations" class="js-scrollTo" title="Mes Créations">
+				Portfolio
+			</a>
+
+			<a href="#contact" class="js-scrollTo" title="Contactez-moi">
+				Me Contacter
+			</a>
+						
+		</div>
+					
+	</nav>
+
+	<header>
 
 		<figure id="logo">
 
-			<a href="../index.html" title="Accueil">
-				<div id="logoimg">
-					<img src="../images/logo.png"/>
-				</div>
-			</a>
+			<div id="logoimg">
+				<img src="../images/logo.png" alt="Monogramme"/>
+			</div>
+
+			<figcaption id="textlogo">
+				<h3>Vincent
+				<br>Pittiglio</h3>
+			<figcaption>
 
 		</figure>
+
+		<nav id="navheader">
+
+			<a href="../index.html" id="navhomelink1" class="js-scrollTo">
+				Accueil
+			</a>
+
+			<a href="#contact" id="navhomelink3" class="js-scrollTo" title="Contactez-moi">
+				Me Contacter
+			</a>
+
+		</nav>
 
 	</header>
 
 	<section id="introprjt">
 
-		<fig>
-			<img src="../images/bcn/mesbcn1.png" alt="Page d'accueil"/>
-		</fig>
+		<h1>BCN Osteopatia</h1>
+		<br/>
 
-		<div id="barrebleuprjbcn"></div>
-
-		<p>Franklin Golay Ostéopathe Barcelonais souhaitait une refonte de son site web</p>
+		<p>
+			Franklin Golay est un ostepathe D.O T.O barcelonais. Il était soucieux des nouvelles normes rgpd 
+			rentrée vigueur. Après une refonte de son site, nous sommes parvenue, ensemble, à obtenir un site
+			aux normes mais aussi plus optimisé pour le référencement naturel ainsi qu'en thermes de navigation.
+			Aujourd'hui Franklin est plus que satisfait de son site tout comme sa clientèle.
+		</p>
 
 	</section>
 
 	<section id="miseensituation">
 
-		<fig id="tablette">
-			<img src="" alt=""/>
-		</fig>
+		<figure>
+			<img src="../images/vignettebcn.png" alt="Page d'accueil"/>
+		</figure>
 
-		<fig id="phone">
-			<img src="" alt=""/>
-			<img src="" alt=""/>
-		</fig>
+		<ul id="sectionsitebcn">
+			<li id="msbcnordi1">
+				<img src="../images/bcn/msbcn3.png" alt="Page d'acceuil sur support mobile"/>
+				<div>
+					<p>Une interface plus minimaliste mais aussi plus fonctionelle.</p>
+				</div>
+			</li>
 
-		<p class="legende"></p>
+			<li id="msbcn2">
+				<div>
+					<p>Un site adapté sur tout support de l'ordinateur au support mobile.</p>
+				</div>
+				<img src="../images/bcn/msbcn1.png" alt="Pages des réservations"/>
+			</li>
+			
 
-		<a href="" title="liens vers le site BCN Osteopata">
+		</ul>
+
+		<a href="https://www.bcnosteopatia.com/index.html" title="liens vers le site BCN Osteopata" target="alt_blank">
 			<div id="boutonvoirsite">
-			voire le site
+			Voir le site
 			</div>
 		</a>
 
@@ -84,6 +142,38 @@
 		</a>
 
 	</nav>
+
+	<section id="contact">
+
+		<div class="entete">
+			<h1 class="from-bottom">Un Projet ?</h1>
+			<h2 class="from-bottom">N'attendez plus !</h2>
+		</div>
+
+		<div id="textecontact" class="from-bottom">
+
+			<p>Parlons-en ensemble.
+				À l'écoute de vos besoins je vous proposerai la 
+				meilleure des solutions.</p>
+
+			<address id="tel" class="from-bottom">
+				07 81 08 48 28
+			</address><br>
+			<address id="mail" class="from-bottom">
+				<a href="mailto:vincenpittiglio@gmail.com ?subject=Hello Vincent ! &body=Hello !" title="écris-moi un mail !">
+					contact@vtpo.com
+				</a>
+			</address>
+
+
+			<nav id="navfooter">
+				<a href=""><img src="../images/linkined.png"/></a>
+				<a href=""><img src="../images/insta.png"/></a>
+			</nav>
+
+		</div>
+
+	</section>
 
 	<footer id="footerprojets">
 		<p id="mentions">® 2018 Vincent Pittiglio - Tous droits réservés.<br>

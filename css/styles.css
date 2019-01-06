@@ -1,15 +1,65 @@
+
+/* ------------------- STYLE SHEET ----------------*/
+
+
 .apparitionhome{animation:home 0.5s ease-in-out;
 	    		 animation-fill-mode: forwards;}
 
+#logo{animation:logohome 0.5s ease-in-out;
+      animation-fill-mode: forwards;
+      animation-begin:0.5s;}
+
+#navhomelink1,#navhomelink2,#navhomelink3{animation:navhome 0.5s ease-in-out;
+                                          animation-fill-mode: forwards;
+                                          animation-begin:0.5s;}
+
+#lifa1,#lifa2,#lifa3,#lifa4{animation:lifagrande 0.5s ease-in-out;
+                            animation-fill-mode: forwards;
+                            animation-begin:0.5s;}
+
 @keyframes home {
   from {
-  	transform:translateY(1vw);
+  	transform:translateY(3vw);
     opacity: 0;
   }
 
   to {
   	transform:translateY(0vw);
-    width: 1;
+    opacity: 1;
+  }
+}
+
+@keyframes logohome {
+  from {
+    transform:translateX(-3vw);
+    opacity: 0;
+  }
+
+  to {
+    transform:translateX(0vw);
+    opacity: 1;
+  }
+}
+
+@keyframes navhome {
+  from {
+    transform:translateY(-3vw);
+    opacity: 0;
+  }
+
+  to {
+    transform:translateY(0vw);
+    opacity: 1;
+  }
+}
+
+@keyframes lifagrande {
+  from {
+    width:0;
+  }
+
+  to {
+    width:100%;
   }
 }
 
@@ -349,13 +399,56 @@ footer{width:100%;
 /* ----------------------------------------------------------------------------------------------*/
 
 
-#headerprojet{width:100%;}
+#conteneurprojet header{margin-bottom:15vh;}
+
+#conteneurprojet #navheader{width:20%;}
 
 #introprjt{width:100%;
            padding-left: 22vw;
            padding-right: 22vw;
            margin-bottom: 16vh;}
 
+#introprjt h1{font-size:2vw;}
+
+#miseensituation{width:100%;
+           padding-left: 22vw;
+           padding-right: 22vw;
+           margin-bottom: 16vh;}
+
+#sectionsitebcn{display:flex;
+                flex-direction:row;
+                jusitfy-content:space-between;
+                padding-top:10vh;}
+
+#sectionsitebcn li{width:45%;}
+
+#msbcnordi1{margin-right:10%;}
+
+#msbcnordi1 img{margin-bottom:7vh;}
+
+#msbcnordi1 div{padding-left:1vw;
+                border-left:solid 1px #2468FF;}
+
+#msbcn2{padding-top:10vh;}
+
+#msbcn2 img{margin-top:10vh;}
+
+#msbcn2 div{padding-left:1vw;
+                border-left:solid 1px #2468FF;}
+
+#msbcnmobile{padding-top:5vw;}
+
+#boutonvoirsite{width:30%;
+                margin-left:35%;
+                margin-top:15vh;
+                text-align:center;
+                border:solid 1px #2468FF;
+                padding-top:0.5vw;
+                padding-bottom:0.5vw;
+                border-radius:30px;
+                transition:all 1.2s ease-in-out;}
+
+a:hover #boutonvoirsite{border:solid 1px #A3A3A3;}
 
 }/*fin iMac 27*/
 
