@@ -73,6 +73,13 @@ svg{display: none;}
 #texteasideprj1 p,#texteasideprj2 p,#texteasideprj3 p{font-size:5vw;
   line-height:6.5vw;}
 
+#retourclient{padding-left:8vw;
+              padding-right:8vw;}
+
+blockquote{margin-bottom:20vw;}
+
+cite{font-size:4vw;}
+
 #contact{ padding-left:8vw;
          padding-right:8vw;
          padding-top:10vh;}
