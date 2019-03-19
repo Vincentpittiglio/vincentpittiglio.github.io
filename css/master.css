@@ -1,20 +1,28 @@
-/* ----------------------------------Reset------------------------------------------- */
 
-@import url("reset.css"); /* Reset browser styles */
+@import url("reset.css"); /* réinitiasation du styles par défaut des navigateur */
 
-/* ----------------------------------Font-------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------ */
 
-@import url("../fonts/font-face.css"); /* Fonts */
+@import url("../fonts/font-face.css"); /* Import des Fonts pour le web */
 
-/* ----------------------------------Style------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------ */
 
-@import url("styles.css"); /* style */
+@import url("styles.css"); /* Écrans ordinateur */
 
-/* --------------------------------Responsiv----------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------ */
 
-@import url("responsiv/stylestablettepaysage.css"); /* Tablette paysage */
-@import url("responsiv/stylestabletteportrait.css"); /* Tablette portrait */
-@import url("responsiv/stylesmobilepaysage.css"); /* Mobile paysage */
-@import url("responsiv/stylesmobileportrait.css"); /* Mobile Portrait */
+@import url("responsiv/tablettelanscape.css"); /* Tablette landscape */
 
-/* ---------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+@import url("responsiv/tabletteportrait.css"); /* Tablette portrait */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+@import url("responsiv/mobilelandscape.css"); /* mobile landscape */
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+@import url("responsiv/mobileportrait.css"); /* mobile landscape */
+
+/* ------------------------------------------------------------------------------------------------------------------ */

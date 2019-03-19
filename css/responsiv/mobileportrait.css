@@ -1,0 +1,11 @@
+@media screen and (max-width:375px) {
+/* Mobiles portrait */
+/* iPhone6+ portrait = 540px */
+/* iPhone6 portrait = 375px */
+/* iPhone4 & iPhone5 portrait = 320px */
+#imghome1 {display:block;}
+
+#boutonvoirsite{width:100%;
+				padding:2.5vw 5vw;}
+
+}/*fin media phone*/

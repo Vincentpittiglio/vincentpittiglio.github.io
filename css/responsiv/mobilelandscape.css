@@ -1,0 +1,144 @@
+@media screen and (max-width:667px) {
+/* Mobiles paysage */
+/* iPhone6+ paysage = 960px */
+/* iPhone6 paysage = 667px */
+/* iPhone5s paysage = 568px */
+/* iPhone4 paysage = 468 px */
+
+#contenueloading img {
+    width: 40%;
+    margin: auto;
+    transform: translateX(8%);
+    margin-top: 10vw;
+}
+
+#contenueloading {
+    width: 40%;
+    margin-top: 40.5vh;
+    margin-left: 30%;
+
+}
+
+#svgloag {
+    width: 35%;
+    margin-left: 5%;
+}
+
+h1{font-size:6vw;}
+h2{font-size:5vw;
+   line-height:8vw;}
+
+#boutonbacktop,
+address,
+footer p,
+footer a,
+cite,
+blockquote,
+.boutonprojet,
+#boutonhome,
+p{font-size:3.5vw;
+  line-height:5.4vw;}
+
+#wrapper {padding: 0vh 12vw 5vh 12vw;}
+
+.menu{top:5vh;
+	  right:4vw;
+	  width:7vw;}
+
+.humberger #conteneurlien a {margin:4vw 0vw;
+							 font-size:5vw;}
+
+#headerhome{padding: 4vh 3vw 0vh 3vw;}
+
+#logo{width:24%;}
+#logo figure{margin-right:2vw;}
+#logo p{font-size:2.5vw;
+		line-height:5vw;}
+
+.menu{right:3vw;}
+
+#home{padding-top:27vw;
+	  min-height:0vh;}
+
+#barrehome{margin: 7vw 0vw 6vw 0vw;}
+
+#imghome1 {display:none;} 
+#imghome2 {top:105vw;
+		   width:45vw;
+		   height:37vw;
+		   margin:0vh 0vw 0vh 4vw;} 
+#imghome3 {top:105vw;
+		   margin: 5vw 4vw 0vh 0vw;
+		   height:29vw;}
+
+#contentpresta figure {width:20%;
+					  margin:-30vw 0vw 0vh 55.5%;}
+
+#projet1, #projet2, #projet3 {margin-top: 5vh;
+					          min-height: 0vh;
+					          height:auto;}
+
+#prestation{padding-top:100vw;}
+
+#imgprojet11 {width: 20%;
+              margin: 30vh 0vw 0vh 5vw;}
+
+#imgprojet12{width:35%;
+			 margin:10vh 0vw 0vh 32vw;}
+
+#imgprojet13{width:25vw;
+			 height:25vw;}
+
+#imgprojet14{width:67%;}
+
+#imgprojet15{margin-top:18vh;
+			 width:47%;}
+
+.numerosprj{font-size:5vw;}
+
+#imgprojet21{width: 23%;
+    	     margin: 37vw 0vw 0vh 37%;}
+
+#imgprojet22{width: 30%;
+			 height:20vw;
+    	     margin: 30vw 0vw 0vh 20%;}
+
+#imgprojet23{width:68%;}
+
+#imgprojet24{width: 43%;
+    		 margin: 25vw 0vw 0vh 10%;}
+
+#imgprojet31 {width: 30vw;
+    		  margin: 50vw 0vw 0vh 19.5vw;}
+
+#imgprojet32{width:35vw;
+			 height:35vw;
+			 margin: 0vw 0vw 0vh 17.5vw;}
+
+#imgprojet33{width: 69%;
+             margin-top: 10vw;}
+
+
+#imgcite{display:none;}
+
+#imgcontact2{margin: -2vw 0vw 0vh 41vw;}
+
+/* ------------------------------------------ page meg ------------------------------------------- */
+
+#homeprojet{padding-top:30vw;}
+
+#megimg3 {margin: -145vw 0vw 0vw 65.5vw;
+          width: 15vw;}
+
+#mesmegpage1{flex-direction:column-reverse;}
+
+#mesmegpage11{margin:0;
+			  width:100%;}
+
+#mesmegpage12{width:70%;
+			  margin:0vh 0vw 10vw 18.5vw;}
+
+#boutonvoirsite{width:90%;
+				padding:2vw 5vw;}
+
+}/* fin media phone paysage*/

@@ -1,465 +1,361 @@
+
 <!doctype html>
 
+<!-- Langue de la page -->
 <html lang="fr">
 
 	<head>
-	
+		
+		<!--  ensemble bien défini de caractères (encodage du site) 
+		À NE SURTOUT PAS TOUCHER -->
 		<meta charset="utf-8"> 
 
-		<title>Vincent Pittiglio | Portfolio</title>
+		<!-- Le Titre de la pages -->
+		<title> Vincent Pittiglio | Accueil</title>
+		<!-- La description de la pages -->
+		<meta name="description" content="UX/UI Designer Free-lance. Du Webdesign à la mise en ligne de votre site en passant par l'expérience utilisateur, je réalise votre Site Web personalisé, vous correspondant au delà même de vos attentes"/>
 
-		<link rel="shortcut icon" type="image/ico" href="images/ico.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Graphiste indépendant mais surtout polyvalent.">
+		<link rel="shortcut icon" type="image/png" href="images/ico.png"/>
 
+		<!-- CSS et Responsiv -->
 		<link rel="stylesheet" href="css/master.css" type="text/css" media="screen" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	</head> 
+		<!-- Icone du site -->
+		
+		<!-- Fin Icone du site -->
 
-	<body>
+		<!-- Le code javascript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="jss/jquery.min.js"></script>
+		<script src="jss/script.js"></script>
+		<!-- fin du code javascript -->
 
-<div id="conteneur">
+	</head> <!-- On referme la partie head -->
 
-			<!-- ------------- menu humburger ------------- -->
+	<body> <!-- La partie <body> contient tous les éléments de contenu -->
 
-				<nav class="menu">
-  					<span class="menu-global menu-top"></span>
-  					<span class="menu-global menu-middle"></span>
-  					<span class="menu-global menu-bottom"></span>
-				</nav>
+		<div class="loader">
 
-				<nav class="humberger">
+			<div id="contenueloading">
+				<img src="images/logoblanc.png"><!-- Le logo -->
 
-					<div id="conteneurlien">
+				<div id="svgloag"><!-- Icone de chargement -->
+					<!-- By Sam Herbert (@sherb), for everyone. More @ http://goo.gl/7AJzbL -->
+					<svg viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+    					<g fill="none" fill-rule="evenodd">
+        					<g transform="translate(1 1)" stroke-width="0.5">
+           					  <circle stroke-opacity=".5" cx="18" cy="18" r="18"/>
+           						 <path d="M36 18c0-9.94-8.06-18-18-18">
+                					<animateTransform
+                    					attributeName="transform"
+                   						 type="rotate"
+                    					from="0 18 18"
+                    					to="360 18 18"
+                    					dur="1s"
+                    					repeatCount="indefinite"/>
+            						</path>
+        						</g>
+    						</g>
+					</svg>
+				</div>
+			</div>
 
-						<a href="#conteneur" class="js-scrollTo" title="Haut de la page">
-							Accueil
-						</a>
+		</div>
 
-						<a href="#apropos" class="js-scrollTo">
-							À Propos
-						</a>
+		<div id="wrapper">
 
-						<a href="#mescreations" class="js-scrollTo" title="Mes Créations">
-							Portfolio
-						</a>
+			<nav class="menu">
+  				<span class="menu-global menu-top"></span>
+  				<span class="menu-global menu-middle"></span>
+  				<span class="menu-global menu-bottom"></span>
+			</nav>
 
-						<!--
-						<a href="#tarif" class="js-scrollTo" title="Contactez-moi">
-							Mes Tarifs
-						</a>
-						-->
-						<a href="#contact" class="js-scrollTo" title="Contactez-moi">
-							Me Contacter
-						</a>
+			<nav class="humberger">
+
+				<div id="conteneurlien">
+
+					<a href="#wrapper" id="linkhome1" class="js-scrollTo" title="accueil">
+						Accueil
+					</a>
+
+					<a href="#prestation" id="linkhome2" class="js-scrollTo" title="Mes Prestations">
+						Prestation
+					</a>
+
+					<a href="#projet" id="linkhome3" class="js-scrollTo" title="Mon Portfolio">
+						Portfolio
+					</a>
+
+					<a href="#footerancre" id="linkhome4" class="js-scrollTo" title="Me Contacter">
+						Contact
+					</a>
 						
-					</div>
-					
-				</nav>
+				</div>
 
-				<!-- ------------- fin menu humburger ------------- -->
+			</nav>
 
-			<header>
+			<header id="headerhome" class="headline">
 
-				<ul id="fildarianne">
-					<li class="active" id="lifa1">
-						<a href="#accueil"></a>
-					</li>
-					<li id="lifa2">
-						<a href="#apropostexte"></a>
-					</li>
-					<li id="lifa3">
-						<a href="#legendeprj1"></a>
-					</li>
-					<!--
-					<li id="lifa4">
-						<a href="#tarif"></a>
-					</li>
-					-->
-					<li id="lifa5">
-						<a href="#contact"></a>
-					</li>
-				</ul>
+				<div id="logo">
+					<figure>
+						<img src="images/logo.png">
+					</figure>
+					<p>Vincent<br/>
+					   Pittiglio</p>
+				</div>
 
-				<figure id="logo">
-
-					<div id="logoimg">
-						<img src="images/logo.png" alt="Monogramme"/>
-					</div>
-
-					<figcaption id="textlogo">
-						<h3>Vincent
-						<br>Pittiglio</h3>
-					<figcaption>
-
-				</figure>
-
-				<nav id="navheader">
-
-					<a href="#apropos" id="navhomelink1" class="js-scrollTo">
-					À Propos
+				<nav id="menudestock">
+					<a href="#wrapper" id="linkhome1" class="js-scrollTo" title="accueil">
+						Accueil
 					</a>
 
-					<a href="#mescreations" id="navhomelink2" class="js-scrollTo" title="Mes Créations">
-					Portfolio
+					<a href="#prestation" id="linkhome2" class="js-scrollTo" title="Mes Prestations">
+						Prestation
 					</a>
 
-					<a href="#contact" id="navhomelink4" class="js-scrollTo" title="Contactez-moi">
-					Me Contacter
+					<a href="#projet" id="linkhome3" class="js-scrollTo" title="Mon Portfolio">
+						Portfolio
 					</a>
 
+					<a href="#footerancre" id="linkhome4" class="js-scrollTo" title="Me Contacter">
+						Contact
+					</a>
 				</nav>
 
 			</header>
 
-			<main>
+			<div id="home">
+					
+				<section id="txthome">
+					<h1>UX/UI Designer<br/>
+						Free-lance</h1>
 
-				<section id="accueil" class="apparitionhome">
+					<div id="barrehome"></div>
 
-					<div id="entetehome">
-						<h1>Graphiste &<br>
-							web designer</h1>
-						<h2>indépendant mais surtout<br>
-						 polyvalent</h2>
-					</div>
+					<p>Le créatif passioné, audacieu et à l'écoute de vos besoins qui convertira vos visiteurs en clients.<br/> Mais c'est qui ?</p>
 
+					<a href="#projet1" class="js-scrollTo" title="Lien vers le portfolio">
+						<div id="boutonhome">
+							voir mon portfolio
+						</div>
+					</a>
 				</section>
 
-				<section id="apropos">
-
-					<div class="entete">
-						<h1 class="from-bottom">Un design <br id="brmobile">sur-mesure</h1>
-						<h2 class="from-bottom">Au-delà de vos attentes</h2>
+				<section id="imghome">
+					<figure id="imghome1">
+						<img src="images/dote/accueildot.png"/>
+					</figure>
+					<div id="imghome2">
 					</div>
+					<div id="imghome3">
+					</div>
+				</section>
 
-					<div id="apropostexte" class="from-bottom">
+			</div> <!-- fin div home -->
 
-						<div id="titretextapropos">
+			<div id="prestation">
 
-							<h4>Qui suis-je ?</h4>
+				<header class="headersection">
+					<h1 class="revealh1">Un Site Web</h1>
+					<h2 class="revealh2">Mais pour quoi faire ?</h2>
+				</header>
 
-							<div id="illuapropos">
-								<svg version="1.1" id="animapropos" x="0px" y="0px" viewBox="0 0 162.551 238.69">
-									<g id="bottomanimeapropos">
-									<polyline fill="#FFFFFF" points="119.692,147.411 159.551,177.141 81.539,235.333 3.527,177.141 43.385,147.411 	"/>
-										<g>
-										<path fill="#2468FF" d="M118.935,148.706c13.286,9.91,26.572,19.82,39.858,29.73c0-0.863,0-1.727,0-2.59
-										c-19.887,14.834-39.773,29.668-59.66,44.502c-4.658,3.475-9.317,6.95-13.975,10.424c-1.175,0.876-2.35,1.753-3.525,2.629
-										c-1.572,1.173,0.497,0.514,0.393,0.436c-8.201-6.117-16.402-12.235-24.603-18.352c-17.714-13.213-35.427-26.426-53.141-39.639
-										c0,0.863,0,1.727,0,2.59c13.286-9.91,26.572-19.82,39.858-29.73c1.531-1.142,0.038-3.749-1.514-2.59
-										c-13.286,9.91-26.572,19.82-39.858,29.73c-0.956,0.713-0.956,1.878,0,2.59c26.004,19.397,52.008,38.795,78.012,58.192
-										c0.383,0.286,1.131,0.286,1.514,0c26.004-19.397,52.008-38.795,78.012-58.192c0.956-0.713,0.956-1.878,0-2.59
-										c-13.286-9.91-26.572-19.82-39.858-29.73C118.897,144.958,117.404,147.564,118.935,148.706L118.935,148.706z"/>
-										</g>
-									</g>
-									<g id="middleanimeapropos">
-									<polyline fill="#FFFFFF" points="121.02,88.942 159.551,117.681 119.692,147.411 81.539,175.873 43.385,147.411 3.527,117.681 
-									42.057,88.942 	"/>
-										<g>
-										<path fill="#2468FF" d="M120.263,90.237c12.843,9.58,25.687,19.159,38.53,28.739c0-0.863,0-1.727,0-2.59
-										c-16.821,12.547-33.643,25.094-50.464,37.642c-6.346,4.734-12.692,9.468-19.039,14.202c-2.169,1.618-4.337,3.236-6.506,4.853
-										c-0.554,0.414-1.109,0.827-1.663,1.241c-0.938,0.699,1.771,0.699,0.834,0c-10.617-7.92-21.235-15.841-31.852-23.761
-										c-15.273-11.393-30.546-22.785-45.82-34.177c0,0.863,0,1.727,0,2.59c12.843-9.58,25.687-19.159,38.53-28.739
-										c1.531-1.142,0.038-3.748-1.514-2.59c-12.843,9.58-25.687,19.159-38.53,28.739c-0.956,0.713-0.956,1.878,0,2.59
-										c26.004,19.397,52.009,38.794,78.012,58.192c0.383,0.286,1.131,0.286,1.514,0c26.004-19.398,52.008-38.795,78.012-58.192
-										c0.956-0.713,0.956-1.878,0-2.59c-12.843-9.58-25.687-19.159-38.53-28.739C120.225,86.489,118.732,89.095,120.263,90.237
-										L120.263,90.237z"/>
-										</g>
-									</g>
-									<g id="topanimeapropos">
-									<polygon fill="#FFFFFF" points="81.539,118.395 3.521,60.197 81.539,2 159.556,60.197 	"/>
-										<g>
-										<path fill="#2468FF" d="M82.296,117.099C56.29,97.7,30.284,78.301,4.278,58.902c0,0.863,0,1.727,0,2.59
-										c19.888-14.835,39.776-29.671,59.664-44.506c4.659-3.475,9.317-6.95,13.976-10.425c1.175-0.877,2.35-1.753,3.525-2.63
-										c1.572-1.173-0.497-0.514-0.393-0.436c8.202,6.118,16.403,12.236,24.605,18.354c17.715,13.214,35.429,26.429,53.144,39.643
-										c0-0.863,0-1.727,0-2.59c-26.006,19.399-52.012,38.798-78.017,58.197c-1.531,1.142-0.038,3.749,1.514,2.59
-										c26.006-19.399,52.012-38.798,78.017-58.197c0.956-0.713,0.956-1.878,0-2.59c-26.006-19.399-52.012-38.798-78.017-58.197
-										c-0.383-0.286-1.131-0.286-1.514,0C54.776,20.104,28.77,39.503,2.764,58.902c-0.956,0.713-0.956,1.878,0,2.59
-										c26.006,19.399,52.012,38.798,78.017,58.197C82.334,120.848,83.827,118.242,82.296,117.099z"/>
-										</g>
-									</g>
-								</svg>
+				<section id="contentpresta">
+
+					<figure>
+						<img src="images/dote/prestationdot.png">
+					</figure>
+				
+					<p id="textepresta2">Vous ne possédez pas de site internet et pourtant on ne cesse de vous venter l'importance d'en posséder un ou pire vous avez un site Internet mais il vous semble inéficaces. Il ne convertit pas vos prospect et vous sembler perdre votre temps et votre argent dans ce dernier ? Avez vous déjà entendu parler de l'UX ou de l'UI design. Mais c'est quoi ?<br/><br/>
+					L'UX vous permet d'offrir une expériences en se concentrant sur  une naration et sur l'ergonome de votre interface via des test et des retour utilisateur.<br/><br/> </p>
+
+					<p id="textepresta">L'UI quand à lui se portera davantage sur l'aspect esthétique qui retiendra votre prospect.
+					Ça vous semble compliqué à mettre en place. <br/><br/>
+					Heureusement je suis là pour vous. Je crée votre interface en mélant mon expertise et ma passion pour offrir à votre visiteur une expériences original. Je vous permet de le convertir en client.<br/><br/>
+					 Fini les dépenses innutiles, vous gagnerais en temps et en argent avec plus de client.</p>
+
+				</section>
+				
+			</div>	<!-- Fin div prestation -->
+
+			<div id="projet">
+
+				<header class="headersection">
+					<h1 class="revealh1">Quelques Expériences</h1>
+					<h2 class="revealh2">Pour vous prouvez mes compétences</h2>
+				</header>
+				
+				<section id="projet1">
+					<div class="imgprojet">
+						<figure id="imgprojet11">
+							<img src="images/dote/dotprojet1.png"/>
+						</figure>
+						<div id="imgprojet12">
+						</div>
+						<div id="imgprojet13">
+						</div>
+						<figure id="imgprojet14">
+							<img src="images/vignettemeg.png" alt="Capture écrans de la page d'accueil du site megredaction.fr"/>
+						</figure>
+						<figure id="imgprojet15">
+							<img src="images/vignettemeg2.png" alt="Capture écrans de la page d'accueil du site megredaction.fr en version mobile"/>
+						</figure>
+					</div>
+					<div class="txtprojet">
+						<div class="numerosprj">#01</div>
+						<h1 class="titreprojet">Mégane</h1>
+						<div class="barreprojet"></div>
+						<p class="txtprojetpresentation">Un site internet et une identitée visuelle pour bien débuter sa freelance</p>
+						<a href="pages/meg.html" title="Découvrir le site internet de Megane Labbé - Rédactrice Web">
+							<div class="boutonprojet">
+								voir le projet
 							</div>
-
-						</div>
-
-						<p>
-							Vous souhaitez faire appel à un Graphiste Webdesigner pour créer votre site internet ?
-							Je conçois vos projets web sur-mesure avec passion et implication. Ma priorité est de développer les valeurs de votre entreprise. Je vous accompagne tout au long de votre projet.
-						    La visibilité est ce qu'il y a de mieux pour votre business, je vous offre un site adapté sur tout support et apporte mes compétences en référencement pour optimiser votre visibilité.
-						</p>
-
+						</a>
 					</div>
-
 				</section>
 
-			</main>
-
-			<section id="mescreations">
-
-				<div class="entete">
-					<h1 class="from-bottom">Mes créations</h1>
-					<h2 class="from-bottom">réalisées avec passion</h2>
-				</div>
-
-				<article id="projet1" class="from-bottom">
-
-					<figure id="imgprj1" class="from-bottom">
-						
-						<a href="pages/bcn.html" title="BCN Osteopata">
+				<section id="projet2">
+					<div class="imgprojet">
+						<figure id="imgprojet21">
+							<img src="images/dote/dotprojet2.png"/>
+						</figure>
+						<div id="imgprojet22">
+						</div>
+						<figure id="imgprojet23">
 							<img src="images/vignettebcn.png" alt="Page d'accueil du site BCN Osteopata"/>
+						</figure>
+						<figure id="imgprojet24">
+							<img src="images/vignettebcn2.png" alt="Page d'accueil du site BCN Osteopata en version mobile"/>
+						</figure>
+					</div>
+					<div class="txtprojet2">
+						<div class="numerosprj numerosprj2">#02</div>
+						<h1 class="titreprojet2">BCN<br/>
+							Osteopata</h1>
+						<div class="barreprojet2"></div>
+						<p class="txtprojetpresentation2">La refonte d'une interface web pour mieux convertir ses clients</p>
+						<a href="pages/bcn.html" title="Découvrir le site internet de Franklin Golay - Ostéopathe Barcelonais">
+							<div class="boutonprojet">
+								voir le projet
+							</div>
 						</a>
+					</div>
+				</section>
 
-						<figcaption id="legendeprj1" class="from-bottom">
-							Web design <br>
-							HTML5/CSS3 & PhP
-						</figcaption>
-
-					</figure>
-
-					<aside id="infoprj1">
-
-						<div id="titreasideprj1">
-							<h1 class="from-bottom">BCN Osteopatia</h1>
-						</div>
-
-						<div id="barrebleuprj1" class="from-bottom"></div>
-
-						<div id="texteasideprj1" class="from-bottom">
-							<p>Conception et réalisation du site web pour un ostéopathe barcelonnais.</p>
-						</div>
-
-					</aside>
-
-				</article>
-
-				<article id="projet2" class="from-bottom">
-
-					<aside id="infoprj2">
-
-						<div id="titreasideprj2">
-							<h1 class="from-bottom">Mégane</h1>
-						</div>
-
-						<div id="barrebleuprj2" class="from-bottom"></div>
-
-						<div id="texteasideprj2" class="from-bottom">
-							<p>Création d’une idéntité visuelle et d’un site web pour une rédactrice web.</p>
-						</div>
-
-					</aside>
-
-					<figure id="imgprj2" class="from-bottom">
-						
-						<a href="pages/megane.html" title="liens vers le site de Mégane labbé">
-							<img src="images/meg/msmeg1.png" alt=""/>
+				<section id="projet3">
+					<div class="imgprojet">
+						<figure id="imgprojet31">
+							<img src="images/dote/dotprojet1.png"/>
+						</figure>
+						<figure id="imgprojet32">
+						</figure>
+						<figure id="imgprojet33">
+							<img src="images/vignetteiseeyou.png" alt="Splashscreen de l'application I See You"/>
+						</figure>
+					</div>
+					<div class="txtprojet">
+						<div class="numerosprj">#03</div>
+						<h1 class="titreprojet">I See You</h1>
+						<div class="barreprojet"></div>
+						<p class="txtprojetpresentation">Une application immersive pour expliqué ce qui est compliqué au grand publique</p>
+						<a href="pages/iseeyou.html" title="Découvrir cette application">
+							<div class="boutonprojet">
+								voir le projet
+							</div>
 						</a>
+					</div>
+				</section>
 
-						<figcaption id="legendeprj2" class="from-bottom">
-							Identité Visuelle <br>
-							Web design <br>
-							HTML5/CSS3 
-						</figcaption>
+			</div><!-- fin div projet -->
 
-					</figure>
+			<div id="retourclient">
 
-				</article>
+				<header class="headersection">
+					<h1 class="revealh1">Ils Ont Eu Confiance</h1>
+					<h2 class="revealh2">Voici leurs avis</h2>
+				</header>
 
-				<article id="projet3" class="from-bottom">
-
-					<figure id="imgprj3" class="from-bottom">
-						
-						<a href="pages/beaubourg.html" title="">
-							<img src="images/beaubourg/msbeaubourg.png" alt=""/>
-						</a>
-
-						<figcaption id="legendeprj3" class="from-bottom">
-							Direction Artistique <br>
-							UX/UI
-						</figcaption>
-
-					</figure>
-
-					<aside id="infoprj3">
-
-						<div id="titreasideprj3">
-							<h1 class="from-bottom">I See You</h1>
-						</div>
-
-						<div id="barrebleuprj3" class="from-bottom"></div>
-
-						<div id="texteasideprj3" class="from-bottom">
-							<p>Conception d'une application de médiation pour
-							 l'exposition Imprimer le monde se déroulant au centre Georges Pompidou
-							</p>
-						</div>
-						
-					</aside>
-
-				</article>
-
-			</section>
-
-			<section id="retourclient">
-
-				<blockquote class="from-bottom">
-
-					<div id="guillemets" class="from-bottom">"</div>
-
+				<blockquote cite="https://www.google.fr/search?q=vincent+pittiglio&oq=vincent+pittiglio&aqs=chrome..69i57j69i60l3j69i65.3792j0j7&sourceid=chrome&ie=UTF-8#lrd=0x4805ed795744c15f:0xdf2e596a5d03ce39,1,,,">
 					<p>
-						Excellent travail, excellente collaboration ! Vincent est disponible, reactif, professionnel et très dynamique. J'ai beaucoup aimé sa façon d'intervenir avec les nouveaux outils, les nouvelles tendances afin d'optimiser au mieu le resultat de mon projet ! Très à l'ecoute, c'est un plaisir de travailler avec lui. Je le recommande deja autour de moi, et à vous qui lisez ce commentaire. Merci ! "
+						" Excellent travail, excellente collaboration !! Vincent est disponible, réactif, professionnel et très dynamique. J'ai beaucoup aimé sa façon d'intervenir avec les nouveaux outils, les nouvelles tendances afin d'optimiser au mieu le resultat de mon projet ! Très à l'écoute, c'est un plaisir de travailler avec lui. Je le recommande déjà autour de moi, et à vous qui lisez ce commentaire. Merci !! "
 					</p>
-
 				</blockquote>
 
-				<div id="cite" class="from-bottom">
-					<cite>
-						— Franklin Golay, BCN Osteopatia
-					</cite>
-				</div>
+				<cite>– Franklin Golay, BCN Osteopata</cite>
 
-			</section>
+				<figure id="imgcite">
+					<img src="images/dote/dotcite.png"/>
+				</figure>
 
-			<!----
+			</div> <!-- fin div retourclient -->
 
-			<section id="tarif">
+			<div id="contact">
 
-				<div class="entete">
-					<h1 class="from-bottom">Mes Tarifs</h1>
-					<h2 class="from-bottom">Adaptés pour vos besoins</h2>
-				</div>
+				<header class="headersection">
+					<h1 class="revealh1">Alors,</h1>
+					<h2 class="revealh2">Et si on prenez un café ?</h2>
+				</header>
 
-				<ul>
-					<li id="tarif1" class="from-bottom">
-
-						<figure>
-							<img src="" alt=""/>
-							<figcaption>
-								forfait éco
-							</figcaption>
-						</figure>
-
-						<h3>500€ HT</h3>
-
-						<p>
-							- Maquette du site web<br/>
-							- Logo en option<br/>
-							<br/>
-							<br/>
+				<div id="sectioncontact">
+					<section id="txtcontact">
+						<p id="textecontactreveal">
+						Vous n'êtes toujours pas convaincus, vous vous posez toujours des questions ou mieux vous souhaitez franchir le pas, parlons-en ensembles autour d'un café. Nous trouverons ensemble la solution qui vous convient le mieux.
 						</p>
 
-						<a href="" title="En savoir plus sur la formule éco">
-							<div class="boutonformule">
-								En savoir plus
-							</div>
-						</a>	
+						<address>
+							<a href="" title="Écrivez-moi un email">
+								vincenpittiglio@gmail.com
+							</a>
+						</address>
 
-					</li>
-
-					<li id="tarif2" class="from-bottom">
-
-						<figure>
-							<img src="" alt=""/>
-							<figcaption>
-								forfait standard
-							</figcaption>
-						</figure>
-
-						<h3>1 400€ HT</h3>
-
-						<p>
-							- Maquette du site web<br/>
-							- Dévellopement front-end<br/>
-							- Logo offert<br/>
-							<br/>
-						</p>
-
-						<a href="" title="En savoir plus sur la formule Standard">
-							<div class="boutonformule">
-								En savoir plus
-							</div>
-						</a>	
-
-					</li>
-
-					<li id="tarif3" class="from-bottom">
-
-						<figure>
-							<img src="" alt=""/>
-							<figcaption>
-								forfait premium
-							</figcaption>
-						</figure>
-
-						<h3>2 200€ HT</h3>
-
-						<p>
-							- Maquette du site web<br/>
-							- Dévellopement front-end<br/>
-							- Logo offert<br/>
-							- 1 ans de gestion de site
-						</p>
-
-						<a href="" title="En savoir plus sur la formule premium">
-							<div class="boutonformule">
-								En savoir plus
-							</div>
-						</a>	
-
-					</li>
-				</ul>
-			</section>
-			-->
-
-			<section id="contact">
-
-				<div class="entete">
-					<h1 class="from-bottom">Un Projet ?</h1>
-					<h2 class="from-bottom">N'attendez plus !</h2>
-				</div>
-
-				<div id="textecontact" class="from-bottom">
-
-					<p>Parlons-en ensemble.
-					   À l'écoute de vos besoins je vous proposerai la 
-					   meilleure des solutions.</p>
-
-					<address id="tel" class="from-bottom">
+						<address>
 							07 81 08 48 28
-					</address><br>
-					<address id="mail" class="from-bottom">
-						<a href="mailto:vincenpittiglio@gmail.com ?subject=Hello Vincent ! &body=Hello !" title="écris-moi un mail !">
-							contact@vtpo.com
+						</address>
+
+						<nav>
+							<a href="https://www.instagram.com/vincentpittigliodesign/" title="Suivez-moi sur Instagram">
+								<figure class="imgnavcontact">
+									<img src="images/insta.png">
+								</figure>
+							</a>
+							<a href="https://www.linkedin.com/in/vincent-pittiglio-882984171/" title="Retrouvez-moi sur LinkedIn">
+								<figure class="imgnavcontact">
+									<img src="images/linkined.png">
+								</figure>
+							</a>
+						</nav>
+					</section>
+					<section id="imgcontact">
+						<figure id="imgcontact1">
+							<img src="images/dote/dotcontact.png">
+						</figure>
+						<div id="imgcontact2">
+						</div>
+						<a href="#wrapper" class="js-scrollTo" title="Retournez à l'accueil">
+							<div id="boutonbacktop">
+								retour à l'accueil
+								<div id="barrecontact"></div>
+							</div>
 						</a>
-					</address>
+					</section>
+				</div> <!-- fin contact -->
 
+				<footer id="footerancre">
+					<p>
+						® 2018 Vincent Pittiglio - Tous droits réservés.
+				    <br/><a href="" title="Mentions Légales">Mentions Légales</a> - <a href="" title="Conditions Générales de ventes">Conditions Générales de ventes</a>.<br/> Je remercie <a href="http://megredacweb.fr/index.html" title="Mégane Labbé Redactrice Web" target="_blank">Mégane Labbé</a> pour la redaction des textes.
+					</p>
+				</footer>
 
-					<nav id="navfooter">
-						<a href="https://www.linkedin.com/in/vincent-pittiglio-882984171/" title="rejoins moi sur LinkedIn"><img src="images/linkined.png"/></a>
-						<a href="https://www.instagram.com/vincentpittigliodesign/?hl=fr" title="Suis moi sur Instagram"><img src="images/insta.png"/></a>
-					</nav>
-
-				</div>
-
-			</section>
-
-			<footer class="from-bottom">
-				<p id="mentions">® 2018 Vincent Pittiglio - Tous droits réservés.<br>
-					<a href="pages/mlcgu.pdf" title="Mentions Légales" target="alt_blank"><em>Mentions Légales & CGU</em></a> - 
-					<a href="pages/cgv.pdf" title="Conditions Générales de Ventes" target="alt_blank"><em>Conditions Générales de ventes</em></a>
-				</p>
-			</footer>
+			</div> <!-- fin wrapper -->
 
 		</div>
-		</div> 
 
-    	<!-- intégration des scripts -->
-    	<script src="https://unpkg.com/scrollreveal"></script>
+	<!-- scrollReveal -->
+	<script src="https://unpkg.com/scrollreveal@4"></script>
+	<script src="jss/app.js"></script>
+    	
+	</body> <!-- On referme la partie body -->
 
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="js/script.js"></script>
-		<!-- fin intégration des scripts -->
-
-	</body> 
-
-</html> 
+</html> <!-- On referme la page web -->
