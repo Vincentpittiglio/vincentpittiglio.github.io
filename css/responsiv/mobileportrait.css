@@ -10,8 +10,4 @@
 
 .prestationabout{padding-top:70vw;}
 
-p, address, footer p, footer a, cite, blockquote, .boutonprojet, #boutonhome, p {
-    font-size: 5vw;
-    line-height: 6.4vw;
-}
 }/*fin media phone*/

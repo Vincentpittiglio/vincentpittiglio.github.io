@@ -152,6 +152,8 @@ cite{margin-top:5vh;
 
 #boutonbacktop{margin:10vh 0vw 0vh 61vw;}
 
+#boutonbacktop{}
+
 
 /* --------------------------------------- page about ---------------------------------------- */
 
@@ -180,6 +182,7 @@ cite{margin-top:5vh;
     padding-bottom: 10vw;
 }
 /* --------------------------------------- page meg ---------------------------------------- */
+
 
 #conteuneurhomeprj{flex-direction:column;}
 

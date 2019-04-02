@@ -28,7 +28,7 @@ h1{font-size:8vw;}
 h2{font-size:6vw;
    line-height:10vw;}
 
-#boutonbacktop,
+
 address,
 footer p,
 footer a,
@@ -127,7 +127,25 @@ p{
 
 #imgcontact2{margin: -2vw 0vw 0vh 41vw;}
 
+#boutonbacktop{font-size:3.5vw;
+			    line-height:10vw;}
+
+#boutonbacktop,
+#boutonbacktop:hover,
+#boutonbacktop:visited{color:#2468ff;}
+
+#boutonbacktop:hover #barrecontact{background:#2468ff;}
+
 /* ------------------------------------------ page meg ------------------------------------------- */
+
+#tetedaffiche{margin-top:45vw;}
+
+.page #imghome2{top:105vw;
+		       	margin:25vw 0vw 0vh 4vw;}
+
+.page #imghome3{top:105vw;
+		   		margin: 30vw 4vw 0vh 0vw;
+		   		height:29vw;}
 
 #homeprojet{padding-top:30vw;}
 
