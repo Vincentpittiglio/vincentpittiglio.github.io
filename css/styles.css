@@ -285,15 +285,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3beade', end
 
 .headersection{width:100%;}
 
+.prestationabout,
 #prestation{min-height:100vh;
 			padding-top:10vh}
 
+#contentprestabout2,
+#contentprestabout1,
 #contentpresta{width:100%;
 			   padding-top:10vh;
 			   display:flex;
 			   flex-direction:row;
 			   justify-content:space-between;}
 
+#contentprestabout1{padding-bottom:20vh;}
+
+#imgabout2{width:45%;}
+
+#texteabout1{margin-top:3vw;}
+
+#contentprestabout2 p,
+#contentprestabout1 p,
 #contentpresta p{width:45%;}
 
 #contentpresta figure{width:10%;
@@ -438,15 +449,8 @@ margin-left:2vw;}
 #imgcontact1{width:12%;
 			 margin-top:39vh;}
 
-#imgcontact2{width:22vw;
-			 height:22vw;
-			 background-color:#f4f4f4;
-			 margin:-0.5vh 0vw 0vh 4.75vw;
-			 -moz-box-shadow: 0px 12px 30px 0px #656565;
--webkit-box-shadow: 0px 12px 30px 0px #656565;
--o-box-shadow: 0px 12px 30px 0px #656565;
-box-shadow: 0px 12px 30px 0px #656565;
-filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=30);}
+#imgcontact2{width:25vw;
+			 height:25vw;}
 
 #boutonbacktop{transform:rotate(90deg);
 			   transform-origin:50 50;

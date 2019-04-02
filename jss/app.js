@@ -59,6 +59,22 @@ ScrollReveal().reveal('#textepresta2',{
 	reset: false
 });
 
+ScrollReveal().reveal('#imgabout2',{
+	delay:500,
+	duration: 700,
+	distance: '50%',
+	origin: 'right',
+	reset: false
+});
+
+ScrollReveal().reveal('#texteabout1',{
+	delay:500,
+	duration: 700,
+	distance: '50%',
+	origin: 'bottom',
+	reset: false
+});
+
 ScrollReveal().reveal('#textepresta',{
 	delay:500,
 	duration:900,
