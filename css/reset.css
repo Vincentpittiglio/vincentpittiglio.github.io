@@ -60,4 +60,6 @@ a:visited{
 	color:#2468ff;
 }
 
+*{overflow-x: hidden;}
+
 script{display:block;}
