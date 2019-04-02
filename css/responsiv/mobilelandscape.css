@@ -73,8 +73,10 @@ p{
 		   margin: 20vw 4vw 0vh 0vw;
 		   height:29vw;}
 
-#contentpresta figure {width:20%;
-					  margin:-30vw 0vw 0vh 55.5%;}
+#contentpresta figure {display:none;}
+
+#textepresta2{width:95%;
+			  margin-bottom:5vw;}
 
 #projet1, #projet2, #projet3 {margin-top: 5vh;
 					          min-height: 0vh;
@@ -93,7 +95,7 @@ p{
 
 #imgprojet14{width:67%;}
 
-#imgprojet15{margin-top:18vh;
+#imgprojet15{margin-top:14vh;
 			 width:47%;}
 
 .numerosprj{font-size:5vw;}
@@ -108,7 +110,7 @@ p{
 #imgprojet23{width:68%;}
 
 #imgprojet24{width: 43%;
-    		 margin: 25vw 0vw 0vh 10%;}
+    		 margin: 25vw 2vw 0vh 13%;}
 
 #imgprojet31 {width: 30vw;
     		  margin: 50vw 0vw 0vh 19.5vw;}

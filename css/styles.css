@@ -270,6 +270,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3beade', end
 
 #texteabout1{margin-top:3vw;}
 
+#textepresta2,
 #contentprestabout2 p,
 #contentprestabout1 p,
 #contentpresta p{width:45%;}
@@ -277,6 +278,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3beade', end
 #contentpresta figure{width:10%;
 					  position:absolute;
 					  margin:-8vw 0vw 0vh 75%;}
+
+#textepresta2{margin-top:-2vw;}
 
 #projet{min-height:100vh;
 		padding-top:5vh;}
