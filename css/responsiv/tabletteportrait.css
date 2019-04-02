@@ -9,15 +9,10 @@ h1{font-size:5vw;}
 h2{font-size:3.5vw;
    line-height:5vw;}
 
-#boutonbacktop,
-footer a, 
-footer p,
-.boutonprojet,
-#boutonhome,
-address,
-cite,
-p{font-size:2.5vw;
-  line-height:3.7vw;}
+p, address, footer p, footer a, cite, blockquote, .boutonprojet, #boutonhome, p {
+    font-size: 5vw;
+    line-height: 6.4vw;
+}
 
 #wrapper {width: 100%;
     	  padding: 0vh 20vw 5vh 20vw;}
@@ -152,6 +147,33 @@ cite{margin-top:5vh;
 
 #boutonbacktop{margin:10vh 0vw 0vh 61vw;}
 
+
+/* --------------------------------------- page about ---------------------------------------- */
+
+#contentprestabout2, #contentprestabout1{
+  flex-direction:column;
+  padding-top:5vw;
+}
+
+#imgabout2{width:100%;
+           margin-bottom:5vw;}
+
+#contentprestabout1 p,
+#contentprestabout2 p
+{width:100%;}
+
+#imgcontact2 {
+    margin: -6vh 0vw 0vh 30vw;
+}
+
+#imgcontact2 {
+    width: 30vw;
+    height: 30vw;
+}
+
+#contentprestabout1 {
+    padding-bottom: 10vw;
+}
 /* --------------------------------------- page meg ---------------------------------------- */
 
 #conteuneurhomeprj{flex-direction:column;}

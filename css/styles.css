@@ -4,39 +4,6 @@
 @media screen and (max-width:2560px) {
 /* iMac 27" paysage = 2560px */
 
-.loader {
-
-position : fixed;
-z-index: 99999;
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3beade+0,2468ff+100 */
-background-image:-moz-linear-gradient(120deg, rgba(59,234,222,0.7), rgba(36,104,255,0.7));
-			background-image:-webkit-linear-gradient(120deg, rgba(59,234,222,0.7), rgba(36,104,255,0.7));
-			background-image:-o-linear-gradient(120deg, rgba(59,234,222,0.7), rgba(36,104,255,0.7));
-			background-image:linear-gradient(120deg, rgba(59,234,222,0.7), rgba(36,104,255,0.7));
-top : 0px;
-left : 0px;
-height : 100%;
-width : 100%;
-cursor : wait;
-}
-
-#contenueloading{width:20%;
-				 height:25vh;
-				 margin-top:30.5vh;
-				 margin-left:40%;
-				 display:flex;
-				 flex-direction:column;
-				 justify-content:space-between;}
-
-#contenueloading img{width: 40%;
-    				 margin:auto;
-    				 transform:translateX(-5%);
-    				 margin-top: 6vw;}
-
-#svgloag{text-align:center;
-    	 width: 20%;
-    	 margin: auto;
-    	 position: absolute;}
 
 a:visited{color:#2468ff;}
 

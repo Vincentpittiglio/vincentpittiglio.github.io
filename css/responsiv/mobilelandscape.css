@@ -24,9 +24,9 @@
     margin-left: 5%;
 }
 
-h1{font-size:6vw;}
-h2{font-size:5vw;
-   line-height:8vw;}
+h1{font-size:8vw;}
+h2{font-size:7vw;
+   line-height:10vw;}
 
 #boutonbacktop,
 address,
@@ -36,8 +36,10 @@ cite,
 blockquote,
 .boutonprojet,
 #boutonhome,
-p{font-size:3.5vw;
-  line-height:5.4vw;}
+p{
+    font-size: 4.8vw;
+    line-height: 8.4vw;
+}
 
 #wrapper {padding: 0vh 12vw 5vh 12vw;}
 
@@ -50,9 +52,9 @@ p{font-size:3.5vw;
 
 #headerhome{padding: 4vh 3vw 0vh 3vw;}
 
-#logo{width:24%;}
+#logo{width:28%;}
 #logo figure{margin-right:2vw;}
-#logo p{font-size:2.5vw;
+#logo p{font-size:3.2vw;
 		line-height:5vw;}
 
 .menu{right:3vw;}
@@ -66,9 +68,9 @@ p{font-size:3.5vw;
 #imghome2 {top:105vw;
 		   width:45vw;
 		   height:37vw;
-		   margin:0vh 0vw 0vh 4vw;} 
+		   margin:15vw 0vw 0vh 4vw;} 
 #imghome3 {top:105vw;
-		   margin: 5vw 4vw 0vh 0vw;
+		   margin: 20vw 4vw 0vh 0vw;
 		   height:29vw;}
 
 #contentpresta figure {width:20%;
