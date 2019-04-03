@@ -77,7 +77,8 @@ p{font-size:2.5vw;
 .barreprojet2,
 .barreprojet{margin: 2.5vh 0vw 2.5vh 0vw;}
 
-.boutonprojet{margin-top:2.5vh;}
+.boutonprojet{margin-top:2.5vh;
+              margin-bottom:3.5vw;}
 
 #imgprojet12{width:29%;
              margin-top: 2vh;}

@@ -71,7 +71,10 @@ p{
 		   margin:15vw 0vw 0vh 4vw;} 
 #imghome3 {top:120vw;
 		   margin: 20vw 4vw 0vh 0vw;
-		   height:29vw;}
+			   height:29vw;}
+
+.page .about #imghome3,
+.page .about #imghome2 {top:120vw;} 
 
 #boutonhome{margin-top:3vh;}
 
