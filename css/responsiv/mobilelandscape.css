@@ -74,7 +74,7 @@ p{
 			   height:29vw;}
 
 .page .about #imghome3,
-.page .about #imghome2 {top:120vw;} 
+.page .about #imghome2 {top: 160vw;} 
 
 #boutonhome{margin-top:3vh;}
 
@@ -145,7 +145,7 @@ p{
 
 /* ------------------------------------------ page meg ------------------------------------------- */
 
-#tetedaffiche{margin-top:45vw;}
+#tetedaffiche{margin-top:15vw;}
 
 .page #imghome2{top:105vw;
 		       	margin:25vw 0vw 0vh 4vw;}
@@ -156,8 +156,7 @@ p{
 
 #homeprojet{padding-top:30vw;}
 
-#megimg3 {margin: -145vw 0vw 0vw 65.5vw;
-          width: 15vw;}
+#megimg3 {display:none;}
 
 #mesmegpage1{flex-direction:column-reverse;}
 

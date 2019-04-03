@@ -52,7 +52,10 @@ p{font-size:2.5vw;
 #contentpresta {padding-top:5vh;
 				flex-direction:column;}
 
-#textepresta2{margin-bottom:3vw;}
+#textepresta{width:100%;}
+
+#textepresta2{margin-bottom:3vw;
+              width:90%;}
 
 #contentpresta figure {width:20%;
 					  margin:-18vw 0vw 0vh 55.5%;}

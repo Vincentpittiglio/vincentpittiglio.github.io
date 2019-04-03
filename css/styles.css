@@ -272,8 +272,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3beade', end
 
 #textepresta2,
 #contentprestabout2 p,
-#contentprestabout1 p,
-#contentpresta p{width:45%;}
+#contentprestabout1 p{width:45%;}
+
+#contentpresta {width:100%;}
+
+#textepresta{width:45%;}
 
 #contentpresta figure{width:10%;
 					  position:absolute;
