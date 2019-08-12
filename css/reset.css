@@ -42,11 +42,6 @@ table {
 	border-spacing: 0;
 }
 
-body,html {
-	
-	min-height:100%;
-	overflow-x: hidden;
-	}
 
 img{width:100%;
 	height:auto;}
@@ -58,7 +53,7 @@ a{text-decoration: none;
 }
 a:visited{
 	text-decoration: none;
-	color:#2468ff;
+	color:#000;
 }
 
 

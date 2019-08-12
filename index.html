@@ -6,332 +6,333 @@
 
 	<head>
 		
-		<!--  ensemble bien défini de caractères (encodage du site) 
-		À NE SURTOUT PAS TOUCHER -->
 		<meta charset="utf-8"> 
 
-		<!-- Le Titre de la pages -->
 		<title> Vincent Pittiglio | UX / UI Designer</title>
-		<!-- La description de la pages -->
+
 		<meta name="description" content="Hello ! Moi, c’est Vincent, je suis UX / UI Designer. J’aide les TPE/PME à avoir un site web qui déchire ! Tu veux en savoir plus ? Alors viens par ici !"/>
 
 		<link rel="shortcut icon" type="image/png" href="images/ico.png"/>
 
-		<!-- CSS et Responsiv -->
 		<link rel="stylesheet" href="css/master.css" type="text/css" media="screen" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- Icone du site -->
-		
-		<!-- Fin Icone du site -->
-
-		<!-- Le code javascript -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script src="jss/jquery.min.js"></script>
 		<script src="jss/script.js"></script>
-		<!-- fin du code javascript -->
 
-	</head> <!-- On referme la partie head -->
+	</head> 
 
-	<body> <!-- La partie <body> contient tous les éléments de contenu -->
+	<body> 
 
+		<div id="img-fond"></div>
 
-		<div id="wrapper">
-
-			<nav class="menu">
+		<nav class="menu">
   				<span class="menu-global menu-top"></span>
   				<span class="menu-global menu-middle"></span>
   				<span class="menu-global menu-bottom"></span>
-			</nav>
+		</nav>
 
-			<nav class="humberger">
+		<nav class="humberger">
 
-				<div id="conteneurlien">
+			<div id="conteneurlien">
 
-					<a href="#wrapper" id="linkhome1" class="js-scrollTo" title="accueil">
-						Accueil
-					</a>
+				<a href="pages/blog.html" title="blog">
+						Blog
+				</a>
 
-					<a href="pages/about.html" id="linkhome2" title="Mes Prestations">
+				<a href="pages/about.html" title="Découvre mon activité d'UX/UI Designer">
 						À Propos
-					</a>
+				</a>
 
-					<a href="#projet" id="linkhome3" class="js-scrollTo" title="Mon Portfolio">
+				<a href="#portfolio" class="js-scrollTo" title="Mon Portfolio">
 						Portfolio
-					</a>
+				</a>
 
-					<a href="#footerancre" id="linkhome4" class="js-scrollTo" title="Me Contacter">
+				<a href="#contacts" class="js-scrollTo" title="Me Contacter">
 						Contact
-					</a>
+				</a>
 						
-				</div>
+			</div>
 
-			</nav>
+		</nav>
 
-			<header id="headerhome" class="headline">
+		<div id="wrapper">
 
+			<header>
 				<div id="logo">
 					<figure>
-						<img src="images/logo.png">
+						<a href="#" title="Accueil Vincent Pittiglio UX/UI Designer Freelance">
+							<img src="images/logo.png" alt="logotype Vincent Pittiglio UX/UI Designer Free-lance"/>
+						</a>
 					</figure>
-					<p>Vincent<br/>
-					   Pittiglio</p>
+					<figcaption>Vincent <br/>pittiglio</figcaption>
 				</div>
-
-				<nav id="menudestock">
-					<a href="#wrapper" id="linkhome1" class="js-scrollTo" title="accueil">
-						Accueil
-					</a>
-
-					<a href="pages/about.html" id="linkhome2"  title="Mes Prestations">
-						À Propos
-					</a>
-
-					<a href="#projet" id="linkhome3" class="js-scrollTo" title="Mon Portfolio">
-						Portfolio
-					</a>
-
-					<a href="#footerancre" id="linkhome4" class="js-scrollTo" title="Me Contacter">
-						Contact
-					</a>
+				<nav>
+					<a href="pages/about.html" title="En savoir plus sur moi et ma freelance en UX/UI design">À Propos</a>
+					<a href="#portfolio" class="js-scrollTo" title="Découvre mes projets">Portfolio</a>
+					<a href="#contacts" class="js-scrollTo" title="Contact-moi">Contacts</a>
+					<a href="pages/blog.html" title="Découvre mon blog">Blog</a>
 				</nav>
-
 			</header>
 
-			<div id="home">
-					
-				<section id="txthome">
-					<h1>UX/UI Designer<br/>
+			<div id="header-left-fixed">
+				<div id="nom">vincent&nbsp;pittiglio</div>
+				<nav id="nav-socialmedia">
+					<a href="https://www.facebook.com/vincentpittigliodesign">
+						<figure>
+							<img src="images/fb.png" alt="suis-moi sur Facebook"/>
+						</figure>
+					</a>
+					<a href="https://www.linkedin.com/in/vincent-pittiglio-882984171/">
+						<figure>
+							<img src="images/linkedin.png" alt="rejoins moon réseau sur LinkedIn"/>
+						</figure>
+					</a>
+					<a href="https://www.instagram.com/vincentpittigliodesign/">
+						<figure>
+							<img src="images/insta.png" alt="suis-moi sur Instagram"/>
+						</figure>
+					</a>
+				</nav>
+			</div>
+
+			<section id="intro">
+
+				<div id="titre">
+
+					<h1><strong>UX/UI</strong> <br/>
+						Designer <br/>
 						Free-lance</h1>
 
-					<div id="barrehome"></div>
+					<div id="barre-bleu-intro"></div>
 
-					<p>Tu veux un site web élégant, fonctionnel, qui te rapporte des clients ? Alors tu as frappé à la bonne porte ! À l’écoute de tes besoins, je saurai créer le site internet qui te ressemble.</p>
+				</div>
 
-					<a href="#projet1" class="js-scrollTo" title="Lien vers le portfolio">
-						<div id="boutonhome">
-							voir mon portfolio
-						</div>
-					</a>
-				</section>
+				<div id="texte-intro">
 
-				<section id="imghome">
-					<figure id="imghome1">
-						<img src="images/dote/accueildot.png"/>
-					</figure>
-					<div id="imghome2">
-					</div>
-					<div id="imghome3">
-					</div>
-				</section>
-
-			</div> <!-- fin div home -->
-
-			<div id="prestation">
-
-				<header class="headersection">
-					<h1 class="revealh1">Un Site Web</h1>
-					<h2 class="revealh2">Mais pour quoi faire ?</h2>
-				</header>
-
-				<section id="contentpresta">
-
-					<figure>
-						<img src="images/dote/prestationdot.png">
-					</figure>
-				
-					<div id="textepresta2">
-						<img src="images/apropos.png">
-					</div>
-					<div id="textepresta">
-							<p>Avoir un site web est indispensable pour développer ta visibilité et ta notoriété. Mais ça ne suffit pas à avoir des clients. En tant que webdesigner, je suis à l’affut des dernières tendances web, pour créer un site performant, fluide, qui t’aidera à décrocher des clients à coup sûr. 
-							<a href="pages/about.html" title="Découvrir plus sur mes services">
-							<div class="boutonprojet">
-								En savoir plus
-							</div>
-						</a>
-						</p>
-					</div>
-
-				</section>
-				
-			</div>	<!-- Fin div prestation -->
-
-			<div id="projet">
-
-				<header class="headersection">
-					<h1 class="revealh1">Ils m’ont fait confiance</h1>
-					<h2 class="revealh2">Portfolio</h2>
-				</header>
-				
-				<section id="projet1">
-					<div class="imgprojet">
-						<figure id="imgprojet11">
-							<img src="images/dote/dotprojet1.png"/>
-						</figure>
-						<div id="imgprojet12">
-						</div>
-						<div id="imgprojet13">
-						</div>
-						<figure id="imgprojet14">
-							<img src="images/vignettemeg.png" alt="Capture écrans de la page d'accueil du site megredaction.fr"/>
-						</figure>
-						<figure id="imgprojet15">
-							<img src="images/vignettemeg2.png" alt="Capture écrans de la page d'accueil du site megredaction.fr en version mobile"/>
-						</figure>
-					</div>
-					<div class="txtprojet">
-						<div class="numerosprj">#01</div>
-						<h1 class="titreprojet">Mégane</h1>
-						<div class="barreprojet"></div>
-						<p class="txtprojetpresentation">Un site élégant, féminin, pour l’aider à décrocher ses premiers contrats en tant que rédactrice web freelance ! </p>
-						<a href="pages/megane.html" title="Découvrir le site internet de Megane Labbé - Rédactrice Web">
-							<div class="boutonprojet">
-								voir le projet
-							</div>
-						</a>
-					</div>
-				</section>
-
-				<section id="projet2">
-					<div class="imgprojet">
-						<figure id="imgprojet21">
-							<img src="images/dote/dotprojet2.png"/>
-						</figure>
-						<div id="imgprojet22">
-						</div>
-						<figure id="imgprojet23">
-							<img src="images/vignettebcn.png" alt="Page d'accueil du site BCN Osteopata"/>
-						</figure>
-						<figure id="imgprojet24">
-							<img src="images/vignettebcn2.png" alt="Page d'accueil du site BCN Osteopata en version mobile"/>
-						</figure>
-					</div>
-					<div class="txtprojet2">
-						<div class="numerosprj numerosprj2">#02</div>
-						<h1 class="titreprojet2">BCN<br/>
-							Osteopata</h1>
-						<div class="barreprojet2"></div>
-						<p class="txtprojetpresentation2">Une refonte entière d’un site web pour aider BCN Osteopata à développer son portefeuil client.</p>
-						<a href="pages/bcn.html" title="Découvrir le site internet de Franklin Golay - Ostéopathe Barcelonais">
-							<div class="boutonprojet">
-								voir le projet
-							</div>
-						</a>
-					</div>
-				</section>
-
-				<section id="projet3">
-					<div class="imgprojet">
-						<figure id="imgprojet31">
-							<img src="images/dote/dotprojet1.png"/>
-						</figure>
-						<figure id="imgprojet32">
-						</figure>
-						<figure id="imgprojet33">
-							<img src="images/vignetteiseeyou.png" alt="Splashscreen de l'application I See You"/>
-						</figure>
-					</div>
-					<div class="txtprojet">
-						<div class="numerosprj">#03</div>
-						<h1 class="titreprojet">I See You</h1>
-						<div class="barreprojet"></div>
-						<p class="txtprojetpresentation">Une application simple et efficace pour vulgariser l’art et la science.</p>
-						<a href="pages/iseeyou.html" title="Découvrir cette application">
-							<div class="boutonprojet">
-								voir le projet
-							</div>
-						</a>
-					</div>
-				</section>
-
-			</div><!-- fin div projet -->
-
-			<div id="retourclient">
-
-				<header class="headersection">
-					<h1 class="revealh1">Ta satisfaction</h1>
-					<h2 class="revealh2">au coeur de mes priorités ! </h2>
-				</header>
-
-				<blockquote cite="https://www.google.fr/search?q=vincent+pittiglio&oq=vincent+pittiglio&aqs=chrome..69i57j69i60l3j69i65.3792j0j7&sourceid=chrome&ie=UTF-8#lrd=0x4805ed795744c15f:0xdf2e596a5d03ce39,1,,,">
 					<p>
-						" Excellent travail, excellente collaboration !! Vincent est disponible, réactif, professionnel et très dynamique. J'ai beaucoup aimé sa façon d'intervenir avec les nouveaux outils, les nouvelles tendances afin d'optimiser au mieu le resultat de mon projet ! Très à l'écoute, c'est un plaisir de travailler avec lui. Je le recommande déjà autour de moi, et à vous qui lisez ce commentaire. Merci !! "
+						Tu veux un <strong>site web</strong> élégant, fonctionnel, qui te rapporte des clients ? 
+						Alors tu as frappé à la bonne porte ! À l’écoute de tes besoins, 
+						je saurai créer le <strong>site internet</strong> qui te ressemble.
 					</p>
-				</blockquote>
 
-				<cite>– Franklin Golay, BCN Osteopata</cite>
+					<a href="pages/about.html" title="En savoir plus sur Vincent Pittiglio UX/UI designer">
+						<button>
+							En Savoir Plus
+						</button>
+					</a>
 
-				<figure id="imgcite">
-					<img src="images/dote/dotcite.png"/>
+				</div>
+
+			</section>
+
+			<!-- ------------------------------------------------------------------------------------------- -->
+			<!-- ------------------------------------ Portfolio -------------------------------------------- -->
+			<!-- ------------------------------------------------------------------------------------------- -->
+
+			<section id="portfolio">
+				
+				<h3>Portfolio</h3>
+
+				<figure class="motif-projet1 motif-grand">
+					<img src="images/motif-rayure.png"/>
 				</figure>
 
-			</div> <!-- fin div retourclient -->
+				<figure class="motif-projet2 motif-petit">
+					<img src="images/motif-rayure.png"/>
+				</figure>
 
-			<div id="contact">
+				<div class="projet projet1">
 
-				<header class="headersection">
-					<h1 class="revealh1">Envie d’un café ?</h1>
-					<h2 class="revealh2">Rencontrons-nous</h2>
-				</header>
+					<figure>
+						<img src="images/elena/vignette-elena.png" alt="Elena Gaudy Photographie - Web design • UX/UI • Interfaces "/>
+					</figure>
+					
+					<div class="text-projet">
+						<div class="num-prj">#01</div>
 
-				<div id="sectioncontact">
-					<section id="txtcontact">
-						<p id="textecontactreveal">
-						Tu as un projet en particulier que tu voudrais me soumettre, ou juste quelques questions sur ton site internet ? Discutons-en autour d’un café ! Je t’aiderai à trouver la solution idéale pour toi et ton entreprise.
+						<h1>Elena</h1>
 
+						<div class="barre-projet"></div>
+
+						<p>
+						Une interface pop, épurée et élégante pour découvrir l'univers créatif de cette jeune photographe
+						et community manager ! 
 						</p>
 
-						<address>
-							<a href="" title="Écrivez-moi un email">
-								vincenpittiglio@gmail.com
-							</a>
-						</address>
-
-						<address>
-							07 81 08 48 28
-						</address>
-
-						<nav>
-							<a href="https://www.instagram.com/vincentpittigliodesign/" title="Suivez-moi sur Instagram">
-								<figure class="imgnavcontact">
-									<img src="images/insta.png">
-								</figure>
-							</a>
-							<a href="https://www.linkedin.com/in/vincent-pittiglio-882984171/" title="Retrouvez-moi sur LinkedIn">
-								<figure class="imgnavcontact">
-									<img src="images/linkined.png">
-								</figure>
-							</a>
-						</nav>
-					</section>
-					<section id="imgcontact">
-						<div id="imgcontact2">
-							<img src="images/contact.png">
-						</div>
-						<a href="#wrapper" class="js-scrollTo" title="Retournez à l'accueil">
-							<div id="boutonbacktop">
-								retour à l'accueil
-								<div id="barrecontact"></div>
-							</div>
+						<a href="pages/elena.html" title="">
+							<button>
+							VOIR LE PROJET
+							</button>
 						</a>
-					</section>
-				</div> <!-- fin contact -->
+					</div>
 
-				<footer id="footerancre">
+				</div>
+
+				<!-- ------------------------------------------------------------------------------------------- -->
+
+
+				<figure class="motif-projet3 motif-moyen">
+					<img src="images/motif-rayure.png"/>
+				</figure>
+
+				<figure class="motif-projet4 motif-grand">
+					<img src="images/motif-rayure.png"/>
+				</figure>
+
+				<div class="projet projet2">
+
+					<figure>
+						<img src="images/megane/ipad-meg1.png" alt="Mégane Labbé Rédactrice Web SEO - Web design • UX/UI • Interfaces"/>
+					</figure>
+					
+					<div class="text-projet">
+						<div class="num-prj">#02</div>
+
+						<h1>Mégane</h1>
+
+						<div class="barre-projet"></div>
+
+						<p>
+						Un site élégant, féminin, pour l’aider à 
+						décrocher ses premiers contrats en tant 
+						que rédactrice web freelance !
+						</p>
+
+						<a href="pages/megane.html" title="">
+							<button>
+							VOIR LE PROJET
+							</button>
+						</a>
+					</div>
+
+				</div>
+
+				<!-- ------------------------------------------------------------------------------------------- -->
+
+
+				<figure class="motif-projet5 motif-grand">
+					<img src="images/motif-rayure.png"/>
+				</figure>
+
+				<figure class="motif-projet6 motif-petit">
+					<img src="images/motif-rayure.png"/>
+				</figure>
+
+				<div class="projet projet3">
+					
+					<figure>
+						<img src="images/franklin/vignette-franklin.png" alt="BCN Ostéopatia - Web design • UX/UI • Interfaces • Expériences Utilisateurs"/>
+					</figure>
+
+					<div class="text-projet">
+						<div class="num-prj">#03</div>
+
+						<h1>BCN <br/>
+							Osteopatía</h1>
+
+						<div class="barre-projet"></div>
+
+						<p>
+						Une refonte entière d’un site web pour aider BCN Osteopatía à développer son portefeuil client.
+						</p>
+
+						<a href="pages/franklin.html" title="">
+							<button>
+							VOIR LE PROJET
+							</button>
+						</a>
+					</div>
+
+				</div>
+
+			</section>
+
+			<!-- ------------------------------------------------------------------------------------------- -->
+			<!-- -------------------------------------	à Propos ------------------------------------------- -->
+			<!-- ------------------------------------------------------------------------------------------- -->
+
+			<section id="apropos">
+				
+				<div class="en-tete">
+					<h1>
+						Un <strong>Site Web</strong> <br/>
+						Mais pour quoi faire ?
+					</h1>
+
+					<div id="barre-entete"></div>
+				</div>
+
+				<div id="texte-apropos">
 					<p>
-						® 2018 Vincent Pittiglio - Tous droits réservés.
-				    <br/><a href="" title="Mentions Légales">Mentions Légales</a> - <a href="" title="Conditions Générales de ventes">Conditions Générales de ventes</a>.<br/> Je remercie <a href="http://megredacweb.fr/index.html" title="Mégane Labbé Redactrice Web" target="_blank">Mégane Labbé</a> pour la redaction des textes.
+						Avoir un site web est indispensable pour développer ta visibilité et ta notoriété. Mais ça ne suffit pas à avoir des clients. En tant que <strong>UX et UI designer</strong>, je suis à l’affut des dernières tendances web, pour créer un site performant, fluide, qui t’aidera à décrocher des clients à coup sûr.
 					</p>
-				</footer>
 
-			</div> <!-- fin wrapper -->
+					<a href="pages/blog.html" title="Découvre le Blog">
+						<button>
+							BLOG
+						</button>
+					</a>
+				</div>
 
-		</div>
+			</section>
 
-	<!-- scrollReveal -->
-	<script src="https://unpkg.com/scrollreveal@4"></script>
-	<script src="jss/app.js"></script>
+		</div> <!-- fin wrapper -->
+
+		<!-- ------------------------------------------------------------------------------------------- -->
+		<!-- -------------------------------------	Contact  ------------------------------------------- -->
+		<!-- ------------------------------------------------------------------------------------------- -->
+
+		<section id="contacts">
+
+			<div id="text-contact">
+				<h1>Contactez-moi</h1>
+				<p>
+					Tu as un projet en particulier que tu voudrais me soumettre, 
+					ou juste quelques questions sur ton site internet&nbsp;? 
+					Discutons-en autour d’un café&nbsp;! Je t’aiderai à trouver la solution
+					idéale pour toi et ton entreprise.
+				</p>
+
+				<address>
+					vincenpittiglio@gmail.com 
+				</address>
+				<br/>
+				<br/>
+				<address>
+					07 81 08 48 28
+				</address>
+			</div>
+
+			<div id="nav-contact">
+				<nav id="nav-contact1">
+					<div>Menu</div>
+					<br/> 
+					<br/>
+					<a href="#wrapper" class="js-scrollTo" title="Retourne à l'accueil">Accueil</a>
+					<a href="#portfolio" class="js-scrollTo" title="Découvre mes projets">Portfolio</a>
+					<a href="pages/about.html" title="En savoir plus sur moi et ma freelance en UX/UI design">À Propos</a>
+					<a href="blog.html" title="Découvre mon Blog">Blog</a>
+				</nav>
+				<nav id="nav-contact2">
+					<div>Retrouvez-moi</div>
+					<br/> 
+					<br/>
+					<a href="https://www.facebook.com/vincentpittigliodesign" title="Rejoins moi sur Facebook">Facebook</a>
+					<a href="https://www.instagram.com/vincentpittigliodesign/" title="Suivez-moi sur Instagram">Instagram</a>
+					<a href="https://www.linkedin.com/in/vincent-pittiglio-882984171/" title="Rejoins mon réseau sur LinkedIn">LinkedIn</a>
+				</nav>
+			</div>
+
+		</section>
+
+		<footer>
+			<p>
+				® 2018 Vincent Pittiglio - Tous droits réservés. 
+				<br/>Je remercie Mégane Labbé pour la redaction des textes.
+			</p>
+		</footer>
     	
 	</body> <!-- On referme la partie body -->
 

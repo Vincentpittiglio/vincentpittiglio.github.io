@@ -1,218 +1,99 @@
 @media screen and (max-width:768px) {
 /* iPad portrait */
-
-
-#contenueloading{margin-top:40vh;}
-
-h1{font-size:5vw;}
-
-h2{font-size:3.5vw;
-   line-height:5vw;}
-
-#boutonbacktop,
-footer a, 
-footer p,
-.boutonprojet,
-#boutonhome,
-address,
-cite,
-p{font-size:2.5vw;
-  line-height:3.7vw;}
-
-#wrapper {width: 100%;
-    	  padding: 0vh 20vw 5vh 20vw;}
-
-.menu {width: 5vw;}
-
-#logo{width:17%;}
-#logo p{font-size:2vw;
-		line-height:3vw;}
-
-#home{flex-direction:column;
-	  padding-top:20vh;}
-
-#txthome, #imghome{width:100%;}
-
-#imghome2,
-#imghome3{top:70vh;}
-
-#imghome1{top:17vh;
-		  right:15vw;}
-
-#imghome2 {margin: 0vh 0vw 0vh 4vw;
-    	   width: 35vw;
-    	   height: 24vw;}
-
-#imghome3 {margin: 5vh 13vw 0vh 0vw;
-    	   width: 28vw;
-    	   height: 15vw;}
-
-#prestation{min-height:45vh;}
-
-#contentpresta {padding-top:5vh;
-				flex-direction:column;}
-
-#textepresta{width:100%;}
-
-#textepresta2{margin-bottom:3vw;
-              width:90%;}
-
-#contentpresta figure {width:20%;
-					  margin:-18vw 0vw 0vh 55.5%;}
-
-#contentpresta p{width:100%;}
-
-#projet {padding-top: 10vh;}
-
-#projet1,
-#projet2,
-#projet3{margin-top:5vh;
-		 min-height:30vh;
-		 height:80vh;}
-
-.txtprojet,
-.txtprojet2 {margin: 40vh 0vw 0vh 0%;
-    		transform: translateY(0%);
-   		    width:100%;}
-
-.numerosprj{margin-bottom:2.5vh;}
-
-.barreprojet2,
-.barreprojet{margin: 2.5vh 0vw 2.5vh 0vw;}
-
-.boutonprojet{margin-top:2.5vh;
-              margin-bottom:3.5vw;}
-
-#imgprojet12{width:29%;
-             margin-top: 2vh;}
-
-#imgprojet13{width:10%;
-             margin-top: 2vh;}
-
-#imgprojet14{width:50%;
-             margin-top: 3vh;}
-
-#imgprojet15 {width: 30%;
-   			  margin: 20vh 2vw 0vh 20vw;}
-
-#imgprojet11 {width: 15%;
-              margin: 33vh 0vw 0vh 8vw;}
-
-#projet2{margin-top:10vh;
-         margin-bottom:10vh;}
-
-.txtprojet2{width:100%;
-			text-align:left;}
-
-#imgprojet22{width: 23%;
-    		 margin: 20vh 0vw 0vh 20%;}
-
-#imgprojet23{width:52%;
-			margin-left:0%;
-			margin-top:0vh;}
-
-#imgprojet24{width: 23%;
-    		 margin: 17vh 0vw 0vh 10%;}
-
-
-#imgprojet33 {width:51.5%;
-    		  margin-top:2vh;}
-
-#imgprojet32 {width: 25vw;
-    		  height: 25vw;
-   			  background-color: #2468ff;
-   	 		  margin: 10vh 0vw 0vh 13vw;}
-
-#imgprojet31{width: 20%;
-             margin: 32vh 0vw 0vh 15.5vw;}
-
-
-#retourclient{padding-top: 10vh;
-   			  min-height: 45vh;}
-
-blockquote{padding:7vh 3vw 3vw 3vw;}
-
-cite{margin-top:5vh;
-	 text-align:left;}
-
-#imgcite{width:20%;
-    	 margin: 0vh 0vw 0vh 47vw;}
-
-#contact{min-height:0vh;}
-
-#sectioncontact {width: 100%;
-   			     margin-top: 4vh;
-    			 flex-direction: column;}
-
-#txtcontact, #imgcontact {width: 100%;}
-
-#txtcontact nav {display:none;}
-
-
-#imgcontact2{margin: -6vh 0vw 0vh 41vw;}
-
-#imgcontact1 {width: 20%;
-    		  margin-top: 5vh;}
-
-#boutonbacktop{margin:10vh 0vw 0vh 61vw;}
-
-#boutonbacktop{}
-
-
-/* --------------------------------------- page about ---------------------------------------- */
-
-#contentprestabout2, #contentprestabout1{
-  flex-direction:column;
-  padding-top:5vw;
+h1{
+	font-size: 5vw;
+    line-height: 5.4vw;
 }
 
-#imgabout2{width:100%;
-           margin-bottom:5vw;}
-
-#contentprestabout1 p,
-#contentprestabout2 p
-{width:100%;}
-
-#imgcontact2 {
-    margin: -6vh 0vw 0vh 30vw;
+h2{
+	font-size: 4vw;
+    line-height: 4.3vw;
 }
 
-#imgcontact2 {
-    width: 30vw;
-    height: 30vw;
+h3{
+	font-size:2.5vw;
+	line-height:3.2vw
 }
 
-#contentprestabout1 {
-    padding-bottom: 10vw;
+p,
+.projet p{
+	font-size:2.5vw;
+	line-height:3.7vw
 }
-/* --------------------------------------- page meg ---------------------------------------- */
 
+button{
+	font-size:1.9vw;
+	padding: 1.5vw .5vw;
 
-#conteuneurhomeprj{flex-direction:column;}
+}
 
-#conteuneurhomeprj p{width:100%;}
+#wrapper, #wrapper-blog{
+	padding:5vw;
+}
 
-#megimg1 {width: 25vw;
-          height: 25vw;
-          margin-top:7vw;}
+#intro,
+#portfolio,
+#apropos,
+#entete-presentation-about,
+#texte-pres-about,
+#explication-about,
+#intro-about,
+#wrapper-blog ul,
+#source,
+article,
+#projet-page{
+	width:90%;
+	margin-left:5%;
+}
+ 
+#texte-intro, 
+#texte-apropos{
+	width:70%;
+	margin:-2.1vw 0vw 0vw 30%;
+}
 
-#megimg2 {margin: -18vw 0vw 0vw 5vw;
-          width:60vw;}
+#barre-bleu-intro{
+	margin:4vw 0vw 0vw 0%;
+}
 
-#megimg3 {margin: -110vw 0vw 0vw 50.5vw;
-          width: 15vw;}
+#header-left-fixed{
+	display:none
+}
 
-#tetedaffiche figcaption{width:100%;}
+#barre-entete{
+	margin-left:0vw
+}
 
-#mesmegpage11 {
-    width: 85%;
-    margin:2.5vw 15% 0vh 0vw;}
+header nav{
+	font-size:2vw;
+	width:50vw;
+	padding-top:1.5vw
+}
 
-#explainimgprj {margin-top: 10vw;}
+#text-contact{
+	margin:0% 0% 0% 5%;
+	width:47.5%;
+}
 
-#explainimgprj p{width:100%;}
+#wrapper-blog li{
+	width:38vw;
+}
 
-#boutonvoirsite{width:60%;
-				margin-top:10vh;}
+#text-li-blog button{
+	margin-left: 4.5vw
+}
+
+#entete-li-blog{
+	flex-direction: column;
+}
+
+#date-article-li{
+	font-size:2vw;
+	margin-top:1.5vw;
+}
+
+footer p{
+	line-height:3.1vw
+}
 
 }/*fin ipad portrait*/
