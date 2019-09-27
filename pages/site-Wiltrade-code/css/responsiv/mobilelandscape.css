@@ -1,0 +1,68 @@
+@media screen and (max-width:667px) {
+/* Mobiles paysage */
+/* iPhone6+ paysage = 960px */
+/* iPhone6 paysage = 667px */
+/* iPhone5s paysage = 568px */
+/* iPhone4 paysage = 468 px */
+
+h1{
+	font-size:9vw;
+}
+
+h2{
+	font-size:6vw;
+}
+
+h3{
+	font-size:5vw;
+	margin-top:6vw;
+	margin-bottom:15vw
+}
+
+address, p, a{
+	font-size:5vw;
+	line-height: 7vw
+}
+
+.menu{
+	top:8vw;
+}
+
+#accueil-about header #logohome, 
+#accueil header figure{
+	width:20%;
+}
+
+#accueil-about header, 
+#accueil header{
+	padding:7vw 5vw 0vw 5vw;
+}
+
+#content-accueil{
+	margin-top: 50vh;
+  	transform: translateY(-50%);
+  	width:90%;
+  	margin-left:5%;
+}
+
+.button {
+    font-size: 5vw;
+}
+
+#contacts{
+	padding: 15vw 5vw;
+}
+
+.contact-mention{
+	font-size:5vw;
+}
+
+footer{
+	padding:8vw;
+}
+
+#content-accueil-about{
+	padding-top:29vw;
+}
+
+}/* fin media phone paysage*/

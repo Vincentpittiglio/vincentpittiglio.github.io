@@ -1,0 +1,29 @@
+@media screen and (max-width:375px) {
+/* Mobiles portrait */
+/* iPhone6+ portrait = 540px */
+/* iPhone6 portrait = 375px */
+/* iPhone4 & iPhone5 portrait = 320px */
+h1{
+	font-size:7vw;
+	margin-bottom:5vw
+}
+
+p, address, a, 
+#button, span{
+	font-size:4vw;
+	line-height:5.9vw;
+}
+
+#text-about2,
+#text-about,
+#button,
+#text-about-home span,
+#text-about-home p{
+	margin-left:0vw
+}
+
+#content-about2 .illustration{
+	margin-left: 2vw
+}
+
+}/*fin media phone*/
