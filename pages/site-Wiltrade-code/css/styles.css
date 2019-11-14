@@ -18,7 +18,8 @@ h1{
 	font-family:'old_standard_ttbold',times,serif;
 }
 
-h2{	
+h2,
+.liens-food{	
 	font-size:3vw;
 	font-family:'old_standard_ttitalic',times,serif;
 	color:#fff;
@@ -250,6 +251,20 @@ address{
 	background: -webkit-linear-gradient(-45deg, #ff8e14 0%,#ff3c7a 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(135deg, #ff8e14 0%,#ff3c7a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8e14', endColorstr='#ff3c7a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#immobilier{
+	padding:5vw 5vw;
+}
+
+#immobilier h1{
+	text-align: center;
+	margin-bottom: 10vw
+}
+
+#immobilier figure{
+	width:60%;
+	margin-left: 20%
 }
 
 #prestations h1,
