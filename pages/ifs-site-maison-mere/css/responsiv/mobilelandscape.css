@@ -43,11 +43,11 @@
 }
 
 .pagination{
-	margin-top:75vh;
+	margin-top:73vh;
 }
 
 .produits-safran .pagination{
-	margin-top: 75vh;
+	margin-top: 79vh;
 }
 
 .produits{
@@ -122,7 +122,11 @@
 }
 
 #fond-colorant1{
-	background-size:380% 
+	background-size:400% 
+}
+
+#fond-arome2{
+	background-position: -0% 50%;
 }
 
 #fond-arome6,
