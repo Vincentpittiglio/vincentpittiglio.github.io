@@ -1,0 +1,111 @@
+@media screen and (max-width:375px) {
+/* Mobiles portrait */
+/* iPhone6+ portrait = 540px */
+/* iPhone6 portrait = 375px */
+/* iPhone4 & iPhone5 portrait = 320px */
+
+#img-carrousel-safran-3{
+	margin-top:350px;
+}
+
+.produits{
+	background-size: 450%;
+	background-position: 50% 0%;
+}
+
+.pagination{
+	margin-top:90vh;
+}
+
+.produits-safran .pagination{
+	margin-top: 93vh;
+}
+
+#nav-produit{
+	margin-top:20vh
+}
+
+#img-carrousel-safran-2, #img-carrousel-safran-4{
+	margin-top:0;
+	height:100vh
+}
+
+#main-header{
+	position:absolute;
+}
+
+#main-header figure{
+	width:18%;
+}
+
+#fond-arome1, 
+#fond-arome2, 
+#fond-arome3, 
+#fond-arome4, 
+#fond-arome5, #fond-arome6, 
+#fond-arome7, #fond-arome8, 
+#fond-arome9, #fond-arome10, 
+#fond-arome11, #fond-colorant1, 
+#fond-colorant2, #fond-colorant3, #fond-colorant4, 
+#fond-sucre1, #fond-sucre2, #fond-sucre3, 
+#fond-sucre4, #fond-qualite1, #fond-qualite2, 
+#fond-qualite3, #fond-qualite4, #fond-qualite5, 
+#fond-engagement1, #fond-engagement2, #fond-engagement3, 
+#fond-engagement4, #fond-engagement5{
+	height:100vh;
+}
+
+#fond-arome1, #fond-arome2, 
+#fond-arome3, #fond-arome4, 
+#fond-arome5, #fond-arome6, 
+#fond-arome7, #fond-arome8, #fond-arome9, 
+#fond-arome10, #fond-arome11, #fond-colorant3, 
+#fond-colorant2, #fond-colorant1, #fond-colorant4, 
+#fond-sucre1, #fond-sucre2, #fond-sucre3, #fond-sucre4, 
+#fond-qualite1, #fond-qualite2, #fond-qualite3, #fond-qualite4, 
+#fond-qualite5, #fond-engagement5, #fond-engagement4, #fond-engagement3, 
+#fond-engagement2, #fond-engagement1{
+	margin-top: 0%
+}
+
+#texte-carrousel-histoire-1, #texte-carrousel-histoire-2, 
+#texte-carrousel-histoire-3, #texte-carrousel-histoire-4-1, 
+#texte-carrousel-safran-1, #texte-carrousel-safran-2-2, 
+#texte-carrousel-safran-1, #texte-carrousel-safran-3,#texte-carrousel-qualité-1, 
+#texte-carrousel-qualité-2, #texte-carrousel-qualite-3, #texte-carrousel-qualité-4, 
+#texte-carrousel-qualité-5, #texte-carrousel-engagement-1, #texte-carrousel-engagement-2, 
+#texte-carrousel-engagement-3, #texte-carrousel-engagement-4, #texte-carrousel-engagement-5{
+	margin-top:250px
+}
+
+.produits-safran #nav-produit{
+	margin-top:200px
+}
+
+.epicesprd{
+	background-size: 400%
+}
+
+#fond-colorant1,
+#fond-engagement2{
+	background-size: 450%
+}
+
+.epicesprd #main-header{
+	display: none
+}
+
+#contenu-conctact,
+.contactpage2 #contenu-conctact{
+	margin-top:15vh
+}
+
+.contactpage #main-header, .contactpage2 #main-header{
+	top:40px;
+}
+
+.contactpage, .contactpage2{
+	background-size: 450%
+}
+
+}/*fin media phone*/
