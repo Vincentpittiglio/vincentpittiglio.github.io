@@ -5,6 +5,10 @@
 /* iPhone5s paysage = 568px */
 /* iPhone4 paysage = 468 px */
 
+p{
+	font-size: 3vw;
+}
+
 .menu{
 	top:45px;
 }
@@ -43,7 +47,7 @@
 }
 
 .pagination{
-	margin-top:75vh;
+	margin-top:76vh;
 }
 
 .produits-safran .pagination{
@@ -62,9 +66,6 @@
 	margin-bottom:25px;
 }
 
-#img-carrousel-safran-1{
-	margin-top:250px;
-}
 
 .produits-safran #nav-produit{
 	margin-top:250px;
@@ -107,6 +108,11 @@
 #fond-engagement4, #fond-engagement5{
 	height:100vh;
 }
+
+#fond-arome3{
+	background-position: 65% 50%;
+}
+
 
 #fond-arome1, #fond-arome2, 
 #fond-arome3, #fond-arome4, 
@@ -173,6 +179,13 @@
 
 .contactpage2 #contenu-conctact{
 	margin-top:75px
+}
+
+.ecocert{
+	display: block;
+	width: 10%;
+	margin-top:5vh;
+	left:15vw;
 }
 
 

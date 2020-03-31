@@ -316,9 +316,12 @@ span{
 }
 
 #img-carrousel-safran-1{
-	width:43%;
-	margin-top:100px;
-	left:50vw;
+	background-image:url('../images/s2.png');
+	background-size:100%;
+	margin-top:-11.9vh;
+	width:100vw;
+	height:100vh;
+	left:0;
 }
 
 #img-carrousel-safran-2{
@@ -622,6 +625,26 @@ address{
 iframe{
 	width:100%;
 	height:32vw
+}
+
+.res{
+	display:flex;
+	flex-direction: row-reverse;
+	justify-content:space-between;
+	width:20%;
+}
+
+.res figure{
+	margin-top:	15px;
+	margin-bottom: 15px;
+	margin-right: 20px;
+}
+
+.ecocert{
+	position:absolute;
+	top: 67vh;
+	width:5%;
+	z-index: 97;
 }
 
 }/*fin destock*/

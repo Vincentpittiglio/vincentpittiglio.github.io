@@ -230,9 +230,9 @@ p{
 }
 
 #img-carrousel-safran-1{
-	width:70%;
-	margin-top: 300px;
-	left:40vw;
+	width:100%;
+	left:0vw;
+	background-size: cover;
 }
 
 #img-carrousel-safran-3{
@@ -326,6 +326,15 @@ p{
 	background-size:350%
 }
 
+#fond-arome3{
+	background-position: 10% 50%;
+}
+
+#texte-carrousel-arome-3{
+	background-color:rgba(0,0,0,.5);
+	padding:15px
+}
+
 #texte-carrousel-arome-1,
 #texte-carrousel-arome-2,
 #texte-carrousel-arome-3,
@@ -414,6 +423,8 @@ p{
 	line-height:5vw;
 }
 
+
+
 .contactpage, .contactpage2{
 	background-size: 265%;
 	background-position: center center;
@@ -421,6 +432,10 @@ p{
 
 .contactpage2 #section-contact1{
 	display:none; 
+}
+
+.ecocert{
+	display:none;
 }
 
 }/*fin ipad portrait*/

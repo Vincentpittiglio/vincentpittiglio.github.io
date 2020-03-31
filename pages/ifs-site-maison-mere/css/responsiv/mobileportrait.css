@@ -68,6 +68,10 @@
 	margin-top: 0%
 }
 
+#fond-arome3{
+	background-position: 60% 50%;
+}
+
 #texte-carrousel-histoire-1, #texte-carrousel-histoire-2, 
 #texte-carrousel-histoire-3, #texte-carrousel-histoire-4-1, 
 #texte-carrousel-safran-1, #texte-carrousel-safran-2-2, 
@@ -75,7 +79,19 @@
 #texte-carrousel-qualité-2, #texte-carrousel-qualite-3, #texte-carrousel-qualité-4, 
 #texte-carrousel-qualité-5, #texte-carrousel-engagement-1, #texte-carrousel-engagement-2, 
 #texte-carrousel-engagement-3, #texte-carrousel-engagement-4, #texte-carrousel-engagement-5{
-	margin-top:250px
+	margin-top:190px
+}
+
+
+#texte-carrousel-histoire-2-2{
+	margin-top: 270px;
+} 
+#texte-carrousel-histoire-4-2{
+	margin-top: 330px
+}
+
+#texte-carrousel-epices-1{
+	margin-top: 150px
 }
 
 .produits-safran #nav-produit{
@@ -108,4 +124,38 @@
 	background-size: 450%
 }
 
+.bouton{
+	margin-bottom: 15px
+}
+
 }/*fin media phone*/
+
+
+@media screen and (max-width:321px) {
+ #texte-carrousel-histoire-1, #texte-carrousel-histoire-2, 
+#texte-carrousel-histoire-3, #texte-carrousel-histoire-4-1, 
+#texte-carrousel-safran-1, #texte-carrousel-safran-2-2, 
+#texte-carrousel-safran-1, #texte-carrousel-safran-3,#texte-carrousel-qualité-1, 
+#texte-carrousel-qualité-2, #texte-carrousel-qualite-3, #texte-carrousel-qualité-4, 
+#texte-carrousel-qualité-5, #texte-carrousel-engagement-1, #texte-carrousel-engagement-2, 
+#texte-carrousel-engagement-3, #texte-carrousel-engagement-4, #texte-carrousel-engagement-5{
+	margin-top:190px
+}
+
+
+#texte-carrousel-histoire-2-2{
+	margin-top: 270px;
+} 
+#texte-carrousel-histoire-4-2{
+	margin-top: 310px
+}
+
+#texte-carrousel-epices-1{
+	margin-top: 130px
+}
+
+.produits-safran #nav-produit{
+	margin-top:180px
+}
+
+}
