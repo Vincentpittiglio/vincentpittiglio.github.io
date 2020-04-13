@@ -68,10 +68,6 @@
 	margin-top: 0%
 }
 
-#fond-arome3{
-	background-position: 60% 50%;
-}
-
 #texte-carrousel-histoire-1, #texte-carrousel-histoire-2, 
 #texte-carrousel-histoire-3, #texte-carrousel-histoire-4-1, 
 #texte-carrousel-safran-1, #texte-carrousel-safran-2-2, 
@@ -156,6 +152,10 @@
 
 .produits-safran #nav-produit{
 	margin-top:180px
+}
+
+.ecocert{
+	margin-top: 10vh
 }
 
 }
