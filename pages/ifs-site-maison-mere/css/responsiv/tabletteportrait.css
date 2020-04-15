@@ -133,7 +133,7 @@ p{
 }
 
 #scroll{
-	width:15%;
+	width:22%;
 	left:42.5%;
 	z-index:97;
 }
@@ -247,9 +247,12 @@ p{
 }
 
 .epicesprd nav{
-	background-color:rgba(255,31,64,0.7);
+	background-color:rgba(255,31,64,0);
 }
 
+.epicesprd .humberger.isOpen{
+	background-color:rgba(255,31,64,0.7);
+}
 
 .epicesprd{
 	background-size: 240%

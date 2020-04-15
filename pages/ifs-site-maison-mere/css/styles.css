@@ -94,7 +94,7 @@ span{
   }
 
  50% {
-    opacity:.5;
+    opacity:.9;
   }
 
  100%{
@@ -255,6 +255,20 @@ span{
 
 /* -------------------------------- produits ----------------------------- */
 
+.fond-sucre{
+	background-image:url('../images/produits/sucre3.jpg');	
+}
+
+.fond-sucre p{
+background-color:rgba(0,0,0,0.2);
+	color:#fff;
+	padding:5px 15px;
+}
+
+.fond-sucre .menu-global{
+	border-top: 2px solid #fff;
+}
+
 .produits{
 	background-image:url('../images/produits/produits.jpg');
 	background-size:130%;
@@ -369,7 +383,7 @@ span{
 }
 
 .epicesprd .section-one{
- margin-top:180px
+ padding-top:12vw
 }
 
 .epicesprd nav{
