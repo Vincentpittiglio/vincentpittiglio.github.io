@@ -663,6 +663,10 @@ iframe{
 	z-index: 97;
 }
 
+.sepcial-scrool{
+	overflow-x: hidden;
+}
+
 }/*fin destock*/
 
 @media screen and (max-width:1920px) {
