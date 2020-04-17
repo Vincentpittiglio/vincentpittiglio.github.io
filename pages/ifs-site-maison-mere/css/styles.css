@@ -383,7 +383,8 @@ background-color:rgba(0,0,0,0.2);
 }
 
 .epicesprd .section-one{
- padding-top:12vw
+ padding-top:12vw;
+ height:100vh
 }
 
 .epicesprd nav{
@@ -656,8 +657,9 @@ iframe{
 
 .ecocert{
 	position:absolute;
-	top: 67vh;
+	top: 20.5vh;
 	width:5%;
+	left:88%;
 	z-index: 97;
 }
 

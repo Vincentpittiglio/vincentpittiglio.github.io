@@ -151,11 +151,19 @@
 }
 
 .produits-safran #nav-produit{
-	margin-top:180px
+	margin-top:180px;
+	left:1vw;
 }
 
 .ecocert{
-	margin-top: 10vh
+	margin-top: 10vh;
+	top:15vw;
+	left:80%;
+	position:fixed;
+}
+
+#texte-carrousel-arome-6{
+	margin-top:170px;
 }
 
 }
