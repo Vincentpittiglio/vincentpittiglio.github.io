@@ -1,0 +1,39 @@
+/* tablette portrait */
+
+@media (max-width: 900px){
+
+	#accueil{
+		height: 50vw;
+	}
+
+	#bouton {
+   		width: 100%;
+    	margin-left: 0vw!important;
+	}
+
+	#cercle1{
+		top: 15vw;
+	}
+	#cercle2{
+    	top: 34vw;
+    	margin-left: -5vw;
+	}
+	#cercle3{
+		top: 38vw;
+    	margin-left: 30vw;
+	}
+
+	#prestations {
+    	padding: 0px 0vw 100px;
+}
+
+	header nav a, p, h2, h3, address {
+    	font-size: 1.6vw;
+    	line-height: 2.6vw;
+	}
+
+}
+
+
+
+

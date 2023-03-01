@@ -1,0 +1,242 @@
+/* mobile */
+
+/* couleur :
+
+#3573FE -> bleu électrique
+#6E6E6E -> gris foncé
+#CBCDD1 -> gris clair
+
+ */
+
+body,html{
+	overflow-x:hidden;
+}
+
+@media (max-width: 720px){
+
+.menu,.humberger{display:block;}
+
+.menu {
+  cursor: pointer;
+  right:5vw;
+  top:4.5vw;
+  padding-left: 1.25em;
+  position: fixed;
+  z-index: 99999999999999;
+  width: 3vw;
+  height: 3vh;
+}
+.menu-global {
+  backface-visibility: hidden;
+  position: absolute;
+  right: 0;
+  border-top: 3px solid #3573FE;
+  width: 100%;
+  transition: 0.55s;
+}
+.menu-global2 {
+  backface-visibility: hidden;
+  position: fixed;
+  right: 0;
+  border-top: 3px solid white;
+  width: 100%;
+  transition: 0.55s;
+}
+.menu-top {
+  top: 0px;
+}
+.menu-middle {
+  top: 7px;
+}
+.menu-bottom {
+  top: 14px;
+}
+.menu-top-click {
+  backface-visibility: hidden;
+  top: 0vw;
+  transform: rotate(50deg);
+  transition: 0.55s 0.5s;
+  border-top: 3px solid white;
+}
+.menu-middle-click {
+  opacity: 0;
+}
+.menu-bottom-click {
+  backface-visibility: hidden;
+  top: 0vw;
+  transform: rotate(-410deg);
+  transition: 0.55s 0.5s;
+  border-top: 3px solid white;
+}
+
+.humberger{position:fixed;
+			right: 0;
+			padding:2vw;
+			background-color:#3573FE;
+			width:50%;
+			height:100vh;
+			z-index: 999999999;
+
+			transition: transform .6s ease-in-out;
+			-webkit-transition: transform .6s ease-in-out;
+
+			transform: translateX(100%);
+			-webkit-transform: translateX(100%);}
+
+.humberger.isOpen{transform: translateX(0%);
+				  -webkit-transform: translateX(0%);}
+
+.humberger #conteneurlien{position:absolute;
+  						  top: 50%; left: 50%; /* à 50%/50% du parent référent */
+  				          transform: translate(-50%, -50%);
+  				          display:flex;
+  				          flex-direction:column;}
+
+.humberger #conteneurlien a{margin:2vw 0;
+			                text-align: center;
+			                color:#fff;
+							font-family:'gilroylight', sans-serif;
+							font-size:6vw;}
+
+/* -------------------------------- ------------- ------------------------------------  */
+/* -------------------------------- ------------- ------------------------------------  */
+/* -------------------------------- ------------- ------------------------------------  */
+
+h1 {
+    font-size: 8vw;
+    line-height: 11vw;
+    text-align: center;
+}
+
+header nav a, p, h2, h3, address {
+    font-size: 4.6vw;
+    line-height: 6.6vw;
+}
+
+#accueil,#prestations, #portfolio, .galerie-portfolio, #apropos div, #top-footer, .two-column, .three-column{
+	flex-direction: column;
+}
+
+header{
+	    margin: 3.5vw 10vw;
+}
+
+header figure{
+	width:7vw;
+}
+
+header nav{
+	display: none;
+}
+
+#accueil, #prestations, .one-column, .two-column, .three-column {
+    margin: 0px 5vw;
+}
+
+#accueil{
+	height: 100vh;
+}
+
+#accueil-centre {
+    width: auto;
+    margin: -150px 0px;
+}
+
+#trait-diago1{
+	margin-left: 72vw;
+}
+
+#trait-diago1,#trait-diago2 {
+	    width: 15vw;
+}
+
+#cercle1,#cercle2,#cercle3{
+	display: none;
+}
+
+
+.barredeco1 svg,.barredeco2 svg{
+	width:50%;
+	opacity: 0.5;
+}
+
+#bouton{
+	margin-top:20px;
+	background-color: #3573FE;
+	width: 70%;
+    margin-left: 15%!important;
+}
+
+#prestations{
+	padding: 75px 0vw 0px;
+}
+
+#prestations div{
+	width:100%;
+	margin-bottom: 50px;
+}
+
+#portfolio {
+    padding: 75px 0vw;
+}
+
+#deco-portfolio2, #deco-portfolio1{
+	display: none;
+}
+
+.galerie-portfolio li{
+	margin-top: -3px;
+}
+
+#apropos p,#apropos h2{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#top-footer div{
+	width: 100%;
+}
+
+header nav a, footer nav a{
+	margin-top: 20px;
+}
+
+#bottom-footer{
+	line-height: 6vw;
+}
+
+#header-projet{
+	position: relative;
+}
+
+#photo-entete div {
+    transform: translateY(0);
+}
+
+#photo-entete {
+    height: auto;
+    padding: 25vw 0vw;
+}
+
+.one-column figure, .two-column figure, .three-column figure{
+	margin-bottom:50px;
+}
+
+.one-column, .two-column, .three-column{
+	padding-bottom:0px;
+}
+
+.phone-photo,.tab-photo,.tab-photo2,.phone-photo2,.tab-photo3{
+	width: 100%;
+}
+
+.one-column p{
+	margin:0px 0px 100px;
+}
+
+.one-column #bouton{
+	margin:25px 0px 75px!important;
+	width: 100%;
+}
+
+}

@@ -1,0 +1,34 @@
+/* tablette paysage */
+@media (max-width: 1024px) {
+
+	header nav a,p, h2, h3, address{
+		font-size: 1.5vw;
+		line-height: 2.3vw;
+	}
+
+	header{margin: 25px 10vw;
+			width:80vw}
+
+	#header-projet{
+		padding: 15px 10vw;
+	}
+
+	#accueil, #prestations, .one-column, .two-column, .three-column{
+		margin: 0px 7vw;
+	}
+
+	#bouton{
+		width:22vw;
+		margin-left:3.5vw;
+	}
+
+	#apropos p{
+		width: 48.5%;
+	}
+
+	.one-column #bouton {
+    margin-left: 33.5vw;
+}
+
+}
+

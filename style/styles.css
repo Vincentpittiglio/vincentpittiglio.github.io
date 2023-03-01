@@ -1,0 +1,440 @@
+
+/* couleur :
+
+#3573FE -> bleu électrique
+#6E6E6E -> gris foncé
+#CBCDD1 -> gris clair
+
+ */
+
+html{overflow-x: hidden;
+scroll-behavior: smooth;}
+
+.menu,.humberger{
+	display: none;
+}
+
+a:visited, a,h1,h2,p,address{
+ color:#6E6E6E;
+}
+
+header nav a,footer nav a{
+   transition: all 0.2s ease-in-out;
+}
+
+header nav a:hover,footer nav a:hover{
+  color:#3573FE;
+}
+
+h1,h2,header nav a,address{
+	font-family: 'gilroyextrabold',helvetica,sans-serif;
+}
+
+h1{
+	font-size: 3vw;
+	line-height: 3.5vw;
+	text-align: center;
+}
+
+p,h2,h3,address{
+	font-size: 1.1vw;
+	line-height: 1.5vw;
+}
+
+h1 span,p,#bouton,h3,#bottom-footer,#nav-footer1,#nav-footer2{
+	font-family: 'gilroylight',helvetica,sans-serif;
+}
+
+header,header nav,#accueil,#prestations,#portfolio,.galerie-portfolio,#apropos div,#top-footer,.two-column,.three-column{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: raw;
+}
+
+header{
+	margin: 25px 15vw;
+	width: 70vw;
+	position: absolute;
+}
+
+header figure{
+	width: 3.5vw;
+}
+
+header nav{
+	width: 20%;
+}
+
+header nav a{
+	font-size: 1.2vw;
+	margin: auto 0; /* Important */
+    text-align: center;
+}
+
+#accueil,#prestations,.one-column,.two-column,.three-column{
+	margin:0px 15vw;
+}
+
+/* -------------------------------- Page Accueil ------------------------------------  */
+/* -------------------------------- Page Accueil ------------------------------------  */
+/* -------------------------------- Page Accueil ------------------------------------  */
+
+/* ----------  Accueil ----------  */
+
+#accueil{
+	height: 100vh;
+}
+
+.accueil-deco,#accueil-centre{
+	margin: auto 0; /* Important */
+    text-align: center;
+}
+
+#accueil-centre{
+	animation-duration: .5s;
+	animation-name:apparition;
+}
+.barredeco1 svg, .barredeco2 svg{
+	width: 70%;
+}
+
+.barredeco1 svg{
+	animation-duration: .5s;
+	animation-name:barredeco1;
+}
+.barredeco2 svg{
+	animation-duration: .5s;
+	animation-name:barredeco2;
+}
+
+@keyframes apparition{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity:1;
+	}
+}
+
+@keyframes barredeco1{
+	from{
+		margin-right:-10%;
+	}
+	80%{
+		margin-right:1%;
+	}
+	to{
+		margin-right:0%;
+	}
+}
+
+@keyframes barredeco2{
+	from{
+		margin-left:-10%;
+	}
+	80%{
+		margin-left:1%;
+	}
+	to{
+		margin-left:0%;
+	}
+}
+
+#portfolio .accueil-deco svg{
+	width: 100%!important;
+}
+
+#trait-diago1,#trait-diago2{
+	width: 6vw;
+}
+
+#trait-diago1{
+	margin-left: 21vw;
+	margin-bottom: 30px;
+}
+#trait-diago2{
+	margin-left: 3vw;
+	margin-top: 30px;
+}
+
+#accueil-centre{
+	width: 30vw;
+}
+
+#cercle1,#cercle2,#cercle3{
+	position: absolute;
+	border-radius:90%;
+	background-color: #CBCDD1;
+	transform-origin: center;
+}
+
+#cercle1{
+	width:1vw;
+	height:1vw;
+	top:35vh;
+	margin-left:7vw;
+	animation-duration: .3s;
+	animation-name: pop1;
+}
+
+#cercle2{
+	width:2vw;
+	height:2vw;
+	top:58vh;
+	margin-left:2vw;
+	animation-duration: .4s;
+	animation-name: pop2;
+}
+
+#cercle3{
+	width:3vw;
+	height:3vw;
+	top:65vh;
+	margin-left:25vw;	
+	animation-duration: .5s;
+	animation-name: pop3;
+}
+
+@keyframes pop1{
+	from{
+		width:0vw;
+		height:0vw;
+	}
+	80%{
+		width:1.1vw;
+		height:1.1vw;
+	}
+	to{
+		width:1vw;
+		height:1vw;
+	}
+}
+
+@keyframes pop2{
+	from{
+		width:0vw;
+		height:0vw;
+	}
+	80%{
+		width:2.2vw;
+		height:2.2vw;
+	}
+	to{
+		width:2vw;
+		height:2vw;
+	}
+}
+
+@keyframes pop3{
+	from{
+		width:0vw;
+		height:0vw;
+	}
+	80%{
+		width:3.3vw;
+		height:3.3vw;
+	}
+	to{
+		width:3vw;
+		height:3vw;
+	}
+}
+
+#bouton{
+	width: 15vw;
+	margin-top: 20px;
+	margin-left: 7.5vw;
+	padding: 10px 0px;
+	background: #6E6E6E;
+	color:#fff;
+	z-index: 1;
+  	position: relative;
+  	outline: none;
+ 	border: none;
+}
+
+#bouton::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3573FE;
+  transform-origin: center right;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-in-out;
+}
+
+#bouton:hover {
+  cursor: pointer;
+}
+
+#bouton:hover::before {
+  transform-origin: center left;
+  transform: scaleX(1);
+}
+
+/* ----------  prestation ----------  */
+
+#prestations{
+	padding: 75px 0vw 100px;
+}
+
+#prestations div{
+	width: 23%;
+	text-align: center;
+}
+
+#prestations div figure{
+	width: 45%;
+	margin:auto;
+}
+
+#prestations div h2{
+	margin: 20px 0px;
+}
+
+/* ----------  portfolio ----------  */
+
+#portfolio{
+	padding: 0px 15vw 100px;
+}
+
+#deco-portfolio2,
+#deco-portfolio1{
+	position: absolute;
+	width:25vw;
+	margin-top: 37%;;
+	transform: translateY(-100%);
+}
+
+#deco-portfolio1{
+	left:-20vw;
+}
+
+#deco-portfolio2{
+	right:-20vw;
+}
+
+#portfolio h2{
+	color:#3573FE;
+}
+
+#portfolio h2,#portfolio h3{
+	text-align: center;
+}
+
+.galerie-portfolio{
+	margin-top: -3px;
+}
+
+.galerie-portfolio li div{
+	position: absolute;
+	background: rgba(255, 255, 255, .9);
+	width: 23vw;
+	height: 23vw;
+	opacity: 0;
+	transition: .3s;
+}
+
+.galerie-portfolio li:hover div{
+	opacity: 1;
+}
+
+#portfolio h2{
+	margin-top:50%;
+	transform: translateY(-100%);
+}
+
+/* ----------  About ----------  */
+
+#apropos{
+	padding: 0px 15vw 75px;
+}
+
+
+/* ----------  footer ----------  */
+#top-footer{
+	background-color: #CBCDD1;
+	padding: 75px 15vw;
+}
+
+#top-footer div{
+	width:35vw;
+}
+
+#top-footer div p{
+	margin-bottom: 25px;
+}
+
+#bottom-footer{
+	padding: 20px 15vw;
+	color:#fff;
+	text-align: center;
+	background-color:#6E6E6E;
+}
+
+#nav-footer1,#nav-footer2{
+	display: flex;
+	flex-direction: column;
+	line-height: 2.5vw;
+}
+
+/* -------------------------------- Pages Projets ------------------------------------  */
+/* -------------------------------- Pages Projets ------------------------------------  */
+/* -------------------------------- Pages Projets ------------------------------------  */
+
+#header-projet{
+	background-color: #fff;
+	position: fixed;
+	width: 100vw;
+	margin:0px;
+	padding:15px 15vw;
+	z-index: 9999;
+}
+
+#header-projet nav{
+	width: 40%;
+}
+
+#photo-entete{
+	width: 100vw;
+	height: 35vw;
+	padding-top: 25%;
+	margin-bottom:100px;
+}
+
+#photo-entete div{
+	transform: translateY(-100%);
+}
+
+.one-column,.two-column,.three-column{
+	text-align: center;
+	padding: 0px 0px 75px;
+}
+
+.one-column #bouton{
+	 margin-left: 27.5vw;
+}
+
+.phone-photo{
+	width: 22%;
+}
+
+.tab-photo{
+	width: 35%;
+}
+
+.tab-photo2{
+	width: 65%;
+}
+
+.tab-photo3{
+	width: 45%;
+}
+
+.phone-photo2{
+	width: 25%;
+}
