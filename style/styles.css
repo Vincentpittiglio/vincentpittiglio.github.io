@@ -354,7 +354,9 @@ header nav a{
 	padding: 0px 15vw 75px;
 }
 
-
+#apropos div p{
+	width:50%;
+}
 /* ----------  footer ----------  */
 #top-footer{
 	background-color: #CBCDD1;
