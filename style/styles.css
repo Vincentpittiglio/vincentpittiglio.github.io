@@ -440,3 +440,20 @@ header nav a{
 .phone-photo2{
 	width: 25%;
 }
+
+.bug-deux-img{
+	width: 47%;
+}
+
+.two-bouton #bouton{
+	margin:0px 10% 0px 10%!important;
+}
+
+.two-bouton{
+	justify-content: space-around!important;
+}
+
+iframe{
+	width:100%;
+	height: 25vw;
+}
