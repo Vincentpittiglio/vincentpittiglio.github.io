@@ -95,7 +95,8 @@ body,html{
 .humberger #conteneurlien a{margin:2vw 0;
 			                text-align: center;
 			                color:#fff;
-							font-family:'gilroylight', sans-serif;
+							font-family: "Outfit",helvetica,sans-serif;
+							font-weight: 400;
 							font-size:6vw;}
 
 /* -------------------------------- ------------- ------------------------------------  */

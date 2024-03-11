@@ -1,4 +1,4 @@
-
+		
 /* couleur :
 
 #3573FE -> bleu électrique
@@ -6,6 +6,17 @@
 #CBCDD1 -> gris clair
 
  */
+
+
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
 
 html{overflow-x: hidden;
 scroll-behavior: smooth;}
@@ -27,7 +38,8 @@ header nav a:hover{
 }
 
 h1,h2,header nav a,address{
-	font-family: 'gilroyextrabold',helvetica,sans-serif;
+	font-family: "Outfit",helvetica,sans-serif;
+	font-weight: 700;
 }
 
 h1{
@@ -41,15 +53,33 @@ p,h2,h3,address{
 	line-height: 1.5vw;
 }
 
-h1 span,p,#bouton,h3,#bottom-footer,#nav-footer1,#nav-footer2{
-	font-family: 'gilroylight',helvetica,sans-serif;
+h3,#bottom-footer,#nav-footer1,#nav-footer2{
+	font-family: "Outfit",helvetica,sans-serif;
+	font-weight: 400;
+}
+
+#bouton,p{
+	font-family: "Outfit",helvetica,sans-serif;
+	font-weight: 300;
+}
+
+h1 span{
+	font-family: "Outfit",helvetica,sans-serif;
+	font-weight: 200;
 }
 
 header,header nav,#accueil,#portfolio,.galerie-portfolio,#apropos div,#top-footer,.two-column,.three-column{
 	display: flex;
 	justify-content: space-between;
 	flex-direction: raw;
-z-index: 2;
+}
+
+#accueil,#portfolio,.galerie-portfolio,#apropos div,#top-footer,.two-column,.three-column{
+	z-index: 2;
+}
+
+header,header nav{
+	z-index:9999999;
 }
 
 
@@ -73,6 +103,7 @@ header{
 	margin: 25px 15vw;
 	width: 70vw;
 	position: absolute;
+
 }
 
 header figure{
@@ -275,12 +306,13 @@ header nav a{
 	font-size: 2vw;
 	line-height: 2.7vw;
 	padding: 0px 7vw;
+	font-family: "Outfit",helvetica,sans-serif;
 }
 
 .txt-presta2{
 	margin: 40px 0px;
 	color:#71CAF4 ;
-	font-family: 'gilroyextrabold',helvetica,sans-serif;
+	font-weight: 700;
 }
 
 #illu-presta1,#illu-presta2{
@@ -333,8 +365,8 @@ width:4vw;
 .galerie-portfolio li div{
 	position: absolute;
 	background: rgba(255, 255, 255, .9);
-	width: 23vw;
-	height: 23vw;
+	width: 23.1vw;
+	height: 23.1vw;
 	opacity: 0;
 	transition: .3s;
 }
