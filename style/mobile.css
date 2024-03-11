@@ -141,13 +141,13 @@ header nav{
 }
 
 #accueil{
-	height: 100vh;
+	height: 180vw;
 }
 
 #accueil-centre {
     width: auto;
-    height:270vw;
-    margin: -150px 0px;
+    height: auto;
+    margin: 0px 0px;
 }
 
 #accueil-centre h1{
@@ -215,12 +215,12 @@ header nav{
 }
 
 #illu-presta1{
-	margin-bottom: 117vw;
+	margin-bottom: 133vw;
 	margin-left: 0vw;
 }
 
 #illu-presta2{
-	margin-top: 117vw;
+	margin-top: 133vw;
 	margin-left: 75vw;
 }
 
