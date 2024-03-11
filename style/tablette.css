@@ -17,6 +17,11 @@
 		margin: 0px 7vw;
 	}
 
+
+	#prestations{
+		margin: 0px 15vw;
+	}
+
 	#bouton{
 		width:22vw;
 		margin-left:3.5vw;
@@ -28,6 +33,42 @@
 
 	.one-column #bouton {
     margin-left: 33.5vw;
+}
+
+#accueil-tache1{
+	width: 30vw;
+	right:-15vw;
+	top:15vw;
+}
+
+#accueil-tache2{
+	width: 60vw;
+	left:-25vw;
+	top:45vw;
+}
+
+#accueil-tache3{
+	width: 25vw;
+	right:-18vw;
+	top: 163vw;
+}
+#accueil-tache4{
+	width: 20vw;
+	left:-10vw;
+	top: 135vw;
+}
+
+#accueil #bouton {
+    margin-left: 14vw;
+    bottom: 10vw;
+}
+
+#illu-presta1{
+	margin-bottom: 35vw;
+}
+
+#illu-presta2{
+	margin-top: 35vw;
 }
 
 }

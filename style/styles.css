@@ -22,8 +22,8 @@ header nav a,footer nav a{
    transition: all 0.2s ease-in-out;
 }
 
-header nav a:hover,footer nav a:hover{
-  color:#3573FE;
+header nav a:hover{
+  color:#71CAF4;
 }
 
 h1,h2,header nav a,address{
@@ -45,10 +45,28 @@ h1 span,p,#bouton,h3,#bottom-footer,#nav-footer1,#nav-footer2{
 	font-family: 'gilroylight',helvetica,sans-serif;
 }
 
-header,header nav,#accueil,#prestations,#portfolio,.galerie-portfolio,#apropos div,#top-footer,.two-column,.three-column{
+header,header nav,#accueil,#portfolio,.galerie-portfolio,#apropos div,#top-footer,.two-column,.three-column{
 	display: flex;
 	justify-content: space-between;
 	flex-direction: raw;
+z-index: 2;
+}
+
+
+#accueil{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: raw;
+	z-index: 2;
+	position: relative;
+}
+
+#prestations{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	z-index: 2;
+	position: relative;
 }
 
 header{
@@ -78,6 +96,35 @@ header nav a{
 /* -------------------------------- Page Accueil ------------------------------------  */
 /* -------------------------------- Page Accueil ------------------------------------  */
 /* -------------------------------- Page Accueil ------------------------------------  */
+
+#accueil-tache1,#accueil-tache2,#accueil-tache3,#accueil-tache4{
+	position: absolute;
+	z-index: 1;
+}
+
+#accueil-tache1{
+	width: 25vw;
+	right:-15vw;
+	top:-10vw;
+}
+
+#accueil-tache2{
+	width: 40vw;
+	left:-12.5vw;
+	top:25vw;
+}
+
+#accueil-tache3{
+	width: 25vw;
+	right:-18vw;
+	top: 100vw;
+}
+#accueil-tache4{
+	width: 20vw;
+	left:-10vw;
+	top: 140vw;
+}
+
 
 /* ----------  Accueil ----------  */
 
@@ -116,128 +163,69 @@ header nav a{
 	}
 }
 
-@keyframes barredeco1{
-	from{
-		margin-right:-10%;
-	}
-	80%{
-		margin-right:1%;
-	}
-	to{
-		margin-right:0%;
-	}
-}
-
-@keyframes barredeco2{
-	from{
-		margin-left:-10%;
-	}
-	80%{
-		margin-left:1%;
-	}
-	to{
-		margin-left:0%;
-	}
-}
 
 #portfolio .accueil-deco svg{
 	width: 100%!important;
 }
 
-#trait-diago1,#trait-diago2{
-	width: 6vw;
+
+#accueil-txt-icone-haut{
+	display: flex;
+	flex-direction: raw;
 }
 
-#trait-diago1{
-	margin-left: 21vw;
-	margin-bottom: 30px;
+#accueil-jauge,#accueil-ecran{
+	width: 4vw;
 }
-#trait-diago2{
-	margin-left: 3vw;
-	margin-top: 30px;
+
+#accueil-jauge{
+	margin-left: 15vw;
+}
+#accueil-ecran{
+	margin-left: 0vw;
+}
+
+#accueil-fleche{
+	width: 12vw;
+	margin-left: 10vw;
+	margin-top: -7vw;
+	position: absolute;
+}
+
+#accueil-souligne{
+	width: 7vw;
+	margin-left: 35vw;
 }
 
 #accueil-centre{
-	width: 30vw;
+	width: 50vw;
+
 }
 
-#cercle1,#cercle2,#cercle3{
+#accueil-centre h1{
+	font-size:7vw;
+	line-height:7vw;
+	width: 100%;
+}
+
+.accueil-txt-nom,.accueil-txt-ux{
+	text-align: right!important;
+	padding-right: 6.5vw;
+}
+
+.accueil-txt-nom{
+	font-size:3vw;
+	line-height:3.5vw;
+}
+.accueil-txt-ux{
+	font-size:4vw;
+	line-height:4.5vw;
+}
+
+#accueil #bouton{
+	margin-left: 17vw;
+	bottom:75px;
 	position: absolute;
-	border-radius:90%;
-	background-color: #CBCDD1;
-	transform-origin: center;
-}
-
-#cercle1{
-	width:1vw;
-	height:1vw;
-	top:35vh;
-	margin-left:7vw;
-	animation-duration: .3s;
-	animation-name: pop1;
-}
-
-#cercle2{
-	width:2vw;
-	height:2vw;
-	top:58vh;
-	margin-left:2vw;
-	animation-duration: .4s;
-	animation-name: pop2;
-}
-
-#cercle3{
-	width:3vw;
-	height:3vw;
-	top:65vh;
-	margin-left:25vw;	
-	animation-duration: .5s;
-	animation-name: pop3;
-}
-
-@keyframes pop1{
-	from{
-		width:0vw;
-		height:0vw;
-	}
-	80%{
-		width:1.1vw;
-		height:1.1vw;
-	}
-	to{
-		width:1vw;
-		height:1vw;
-	}
-}
-
-@keyframes pop2{
-	from{
-		width:0vw;
-		height:0vw;
-	}
-	80%{
-		width:2.2vw;
-		height:2.2vw;
-	}
-	to{
-		width:2vw;
-		height:2vw;
-	}
-}
-
-@keyframes pop3{
-	from{
-		width:0vw;
-		height:0vw;
-	}
-	80%{
-		width:3.3vw;
-		height:3.3vw;
-	}
-	to{
-		width:3vw;
-		height:3vw;
-	}
 }
 
 #bouton{
@@ -261,7 +249,7 @@ header nav a{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #3573FE;
+  background-color: #71CAF4;
   transform-origin: center right;
   transform: scaleX(0);
   transition: transform 0.25s ease-in-out;
@@ -279,23 +267,34 @@ header nav a{
 /* ----------  prestation ----------  */
 
 #prestations{
-	padding: 75px 0vw 100px;
+	padding: 13vw 0vw 13vw;
 }
 
-#prestations div{
-	width: 23%;
-	text-align: center;
+.txt-presta,.txt-presta2{
+	font-size: 2vw;
+	line-height: 2.7vw;
+	padding: 0px 7vw;
 }
 
-#prestations div figure{
-	width: 45%;
-	margin:auto;
+.txt-presta2{
+	margin: 40px 0px;
+	color:#71CAF4 ;
+	font-family: 'gilroyextrabold',helvetica,sans-serif;
 }
 
-#prestations div h2{
-	margin: 20px 0px;
+#illu-presta1,#illu-presta2{
+position: absolute;
+width:4vw;
 }
 
+#illu-presta1{
+	margin-bottom: 30vw;
+	margin-left: -4vw;
+}
+#illu-presta2{
+	margin-top: 30vw;
+	margin-left: 69vw;
+}
 /* ----------  portfolio ----------  */
 
 #portfolio{
@@ -319,7 +318,7 @@ header nav a{
 }
 
 #portfolio h2{
-	color:#3573FE;
+	color:#6e6e6e;
 }
 
 #portfolio h2,#portfolio h3{
@@ -358,31 +357,17 @@ header nav a{
 	width:50%;
 }
 /* ----------  footer ----------  */
-#top-footer{
-	background-color: #CBCDD1;
-	padding: 75px 15vw;
-}
 
-#top-footer div{
-	width:35vw;
+footer figure{
+	margin-bottom: -3px;
 }
-
-#top-footer div p{
-	margin-bottom: 25px;
-}
-
 #bottom-footer{
 	padding: 20px 15vw;
 	color:#fff;
 	text-align: center;
-	background-color:#6E6E6E;
+	background-color:#71CAF4;
 }
 
-#nav-footer1,#nav-footer2{
-	display: flex;
-	flex-direction: column;
-	line-height: 2.5vw;
-}
 
 /* -------------------------------- Pages Projets ------------------------------------  */
 /* -------------------------------- Pages Projets ------------------------------------  */
