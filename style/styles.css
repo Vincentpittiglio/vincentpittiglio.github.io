@@ -307,6 +307,12 @@ header nav a{
 	line-height: 2.7vw;
 	padding: 0px 7vw;
 	font-family: "Outfit",helvetica,sans-serif;
+	text-align: left;
+}
+
+.txt-presta span{
+	font-weight: 700;
+	color:#71CAF4;
 }
 
 .txt-presta2{
@@ -365,8 +371,8 @@ width:4vw;
 .galerie-portfolio li div{
 	position: absolute;
 	background: rgba(255, 255, 255, .9);
-	width: 23.1vw;
-	height: 23.1vw;
+	width: 23vw;
+	height: 23vw;
 	opacity: 0;
 	transition: .3s;
 }
