@@ -321,7 +321,7 @@ iframe{
 
 .img-recherche{
 	text-align: center;
-	padding: 0vw 0vw px !important;
+	padding: 0vw 0vw px;
 }
 
 }
