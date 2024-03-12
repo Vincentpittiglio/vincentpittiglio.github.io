@@ -436,6 +436,11 @@ footer figure{
 	transform: translateY(-100%);
 }
 
+.img-recherche{
+	text-align: center;
+	padding: 0vw 15vw 75px!important;
+}
+
 .one-column,.two-column,.three-column{
 	text-align: center;
 	padding: 0px 0px 75px;
