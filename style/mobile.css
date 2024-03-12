@@ -319,4 +319,9 @@ iframe{
 	height: 50vw;
 }
 
+.img-recherche{
+	text-align: center;
+	padding: 0vw 0vw px !important;
+}
+
 }
