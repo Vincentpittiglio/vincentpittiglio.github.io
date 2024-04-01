@@ -124,6 +124,26 @@ header nav a{
 	margin:0px 15vw;
 }
 
+#social-media{
+	position: fixed;
+	width: 3.5vw;
+	right:1vw;
+	bottom:1vw;
+	z-index: 9999999999999;
+}
+#social-media #ico-behance{
+	margin-bottom: 5px;
+}
+
+#social-media figure{
+	transform: translateX(0);
+	transition: transform 0.3s ease-in-out;
+}
+#social-media figure:hover{
+	transform: translateX(-0.5vw);
+}
+
+
 /* -------------------------------- Page Accueil ------------------------------------  */
 /* -------------------------------- Page Accueil ------------------------------------  */
 /* -------------------------------- Page Accueil ------------------------------------  */
